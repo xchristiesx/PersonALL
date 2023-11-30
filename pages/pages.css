@@ -1,5 +1,5 @@
-.body{
-  background-color: rgb(39, 39, 39);
+body{
+  background-color: papayawhip;
 }
 
 .container {
@@ -7,8 +7,5 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
-}
-.p{
-  color: aliceblue;
+  font-family: monospace;
 }

@@ -1,0 +1,486 @@
+[
+  {
+    "index": 1,
+    "question": "Jsem žena, muž, nezletilý?",
+    "answers": [
+      {
+        "leads": ["female"],
+        "content": "žena"
+      },
+      {
+        "leads": ["male"],
+        "content": "muž"
+      },
+      {
+        "leads": ["kid"],
+        "content": "nezletilý"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "question": "Jsem heterosexuální, LQBTQ+?",
+    "answers": [
+      {
+        "leads": null,
+        "content": "heterosexuální"
+      },
+      {
+        "leads": ["lgbtq+"],
+        "content": "LQBTQ+?"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "question": "Jedná se o práci, školu či domácí prostředí?",
+    "answers": [
+      {
+        "leads": ["male.stress", "female.gender_inequality", "female.sexual_harassment", "race.common"],
+        "content": "práce"
+      },
+      {
+        "leads": ["kid.bullying", "female.sexual_harassment", "lgbtq+.common"],
+        "content": "škola"
+      },
+      {
+        "leads": ["domestic_violence", "lgbtq+.common"],
+        "content": "domácí prostředí"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "question": "Věk do 18ti. Do 26. Do 30ti. 30-50. 50-65. 65 a více.",
+    "answers": [
+      {
+        "leads": null,
+        "content": "do 18ti"
+      },
+      {
+        "leads": null,
+        "content": "Do 26"
+      },
+      {
+        "leads": null,
+        "content": "Do 30ti"
+      },
+      {
+        "leads": null,
+        "content": "30-50"
+      },
+      {
+        "leads": null,
+        "content": "50-65"
+      },
+      {
+        "leads": null,
+        "content": "65 a více"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "question": "Jak vnímáš komunikaci ve svém okolí?",
+    "answers": [
+      {
+        "content": "dobře",
+        "leads": ["happy.common"]
+      },
+      {
+        "content": "spíše dobře",
+        "leads": null
+      },
+      {
+        "content": "neutrální",
+        "leads": null
+      },
+      {
+        "content": "spíše špatně",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      },
+      {
+        "content": "špatně",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "question": "Cítíš se slyšený/á a respektovaný/á?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": null
+      },
+      {
+        "content": "spíše ano",
+        "leads": null
+      },
+      {
+        "content": "občas",
+        "leads": null
+      },
+      {
+        "content": "spíše ne",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "question": "Máš pocit, že tě ostatní chápou?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": null
+      },
+      {
+        "content": "spíše ano",
+        "leads": null
+      },
+      {
+        "content": "občas",
+        "leads": null
+      },
+      {
+        "content": "spíše ne",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "question": "Máš možnost sdílet své pocity s ostatními?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": null
+      },
+      {
+        "content": "spíše ano",
+        "leads": null
+      },
+      {
+        "content": "občas",
+        "leads": null
+      },
+      {
+        "content": "spíše ne",
+        "leads": ["female.gender_inequality", "male.stress"]
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["female.gender_inequality", "male.stress"]
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "question": "Jak se v poslední době cítíš ve škole/nebo v práci?",
+    "answers": [
+      {
+        "content": "dobře",
+        "leads": null
+      },
+      {
+        "content": "spíše dobře",
+        "leads": null
+      },
+      {
+        "content": "neutrální",
+        "leads": null
+      },
+      {
+        "content": "spíše špatně",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      },
+      {
+        "content": "špatně",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "question": "Existuje něco, co ti dělá starosti, když jsi ve společnosti ostatních?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying", "male.stress"]
+      },
+      {
+        "content": "občas",
+        "leads": null
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": null
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "question": "Máš někdy pocit, že tě někdo záměrně zranil nebo ti ublížil?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying"]
+      },
+      {
+        "content": "občas",
+        "leads": null
+      },
+      {
+        "content": "spíše ne",
+        "leads": ["happy.common"]
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "question": "Máš někdy pocit, že tě někdo obtěžuje nebo vytváří nežádoucí situace?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying"]
+      },
+      {
+        "content": "občas",
+        "leads": ["domestic_violence", "female.gender_inequality", "female.sexual_harassment", "kid.bullying"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": null
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "question": "Pocítil/a jsi někdy, že tě někdo nevhodně sledoval nebo osahával?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["female.sexual_harassment", "kid.bullying", "domestic_violence"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["female.sexual_harassment", "kid.bullying", "domestic_violence"]
+      },
+      {
+        "content": "občas",
+        "leads": ["female.sexual_harassment", "kid.bullying", "domestic_violence"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": null
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "question": "Znáš pojem \"šikana\"?",
+    "answers": [
+      {
+        "content": "ano",
+        "leads": ["kid.bullying", "female.gender_inequality", "domestic_violence"]
+      },
+      {
+        "content": "ne",
+        "leads": null
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "question": "Máš někdy pocit, že tě někdo šikanuje?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["kid.bullying", "female.gender_inequality", "domestic_violence"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["kid.bullying", "female.gender_inequality", "domestic_violence"]
+      },
+      {
+        "content": "občas",
+        "leads": ["kid.bullying", "female.gender_inequality", "domestic_violence"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": ["happy.common"]
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "question": "Byl/a jsi vystaven/a nežádoucím názorům nebo komentářům na základě tvé rasy?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["race.common"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["race.common"]
+      },
+      {
+        "content": "občas",
+        "leads": ["race.common"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "question": "Máš někdy pocit, že tě někdo diskriminuje nebo obtěžuje na základě tvé rasy?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["race.common"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["race.common"]
+      },
+      {
+        "content": "občas",
+        "leads": ["race.common"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "question": "Máš někdy pocit, že tě někdo diskriminuje nebo obtěžuje kvůli tvé sexuální orientaci?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["lgbtq+.common"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["lgbtq+.common"]
+      },
+      {
+        "content": "občas",
+        "leads": ["lgbtq+.common"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "question": "Máš někdy pocit, že tě někdo diskriminuje nebo obtěžuje kvůli tvého pohlaví?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["female.gender_inequality", "lgbtq+.common"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["female.gender_inequality", "lgbtq+.common"]
+      },
+      {
+        "content": "občas",
+        "leads": ["female.gender_inequality", "lgbtq+.common"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "question": "Ovlivňují tyto situace tvé pocity a pohodu?",
+    "answers": [
+      {
+        "content": "rozhodně ano",
+        "leads": ["male.stress", "female.gender_inequality", "female.sexual_harassment", "domestic_violence", "kid.bullying", "race.common", "lgbtq+.common"]
+      },
+      {
+        "content": "spíše ano",
+        "leads": ["male.stress", "female.gender_inequality", "female.sexual_harassment", "domestic_violence", "kid.bullying", "race.common", "lgbtq+.common"]
+      },
+      {
+        "content": "občas",
+        "leads": ["male.stress", "female.gender_inequality", "female.sexual_harassment", "domestic_violence", "kid.bullying", "race.common", "lgbtq+.common"]
+      },
+      {
+        "content": "spíše ne",
+        "leads": null
+      },
+      {
+        "content": "rozhodně ne",
+        "leads": ["happy.common"]
+      }
+    ]
+  }
+]

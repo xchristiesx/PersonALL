@@ -7,14 +7,14 @@ export const HomePage = () => {
   return (
     <GenericPage>
       <Grid
-        height={'100vh'}
+        height={'calc(100vh-64px)'}
         container
         direction="column"
         justifyContent="center"
         alignItems="center"
         style={{ minHeight: '70vh' }}
       >
-        <Typography variant="h1" gutterBottom>
+        <Typography variant="h1" gutterBottom align='center'>
           “It's not personal it's PersonALL.”
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
@@ -29,6 +29,7 @@ export const HomePage = () => {
           }}
           variant="contained"
           color="secondary"
+          size="large"
         >
           Potřebuji pomoc
         </Button>

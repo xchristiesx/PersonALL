@@ -10,10 +10,7 @@ export const HomePage = () => {
   return (
     <GenericPage>
       <Grid
-<<<<<<< HEAD
         height={'calc(100vh-64px)'}
-=======
->>>>>>> a7648e2 ( Kostra stránky o nás)
         container
         direction="column"
         justifyContent="center"

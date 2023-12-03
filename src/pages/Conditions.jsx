@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 
 export default function Conditions({ title, cards, children }) {
+  const [isConditionsChecked, setIsConditonsChecked] = React.useState(false);
   const navigate = useNavigate();
   return (
     <GenericPage>
@@ -52,7 +53,15 @@ export default function Conditions({ title, cards, children }) {
           <FormGroup alignItems="center">
             <FormControlLabel
               required
-              control={<Checkbox color="info" />}
+              control={
+                <Checkbox
+                  checked={isConditionsChecked}
+                  onChange={(event) =>
+                    setIsConditonsChecked(event.target.checked)
+                  }
+                  color="info"
+                />
+              }
               label={
                 <>
                   Prohlašuji, že jsem si přečetl/a výše uvedené informace
@@ -63,6 +72,7 @@ export default function Conditions({ title, cards, children }) {
             />
           </FormGroup>
           <Button
+            disabled={!isConditionsChecked}
             onClick={() => navigate('/test')}
             sx={{
               marginTop: '10rem',

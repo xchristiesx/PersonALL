@@ -9,8 +9,11 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import SectionsAU from '../components/SectionsAU.jsx';
 import { Container } from '@mui/material';
+import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
 
 export const AboutUs = () => {
+  const navigate = useNavigate();
   return (
     <GenericPage>
       <Grid
@@ -128,22 +131,20 @@ export const AboutUs = () => {
         ]}
       >
         <Container
-          id="dfgjh"
           sx={{ margin: '0 auto', display: 'flex', justifyContent: 'center' }}
         >
-          <FormGroup alignItems="center">
-            <FormControlLabel
-              required
-              control={<Checkbox color="info" />}
-              label={
-                <>
-                  Prohlašuji, že jsem si přečetl/a výše uvedené informace
-                  souhlasím s nimi.
-                  <a href="terms"> Zásady ochrany osobních údajů</a>
-                </>
-              }
-            />
-          </FormGroup>
+          <Button
+            onClick={() => navigate('/conditions')}
+            sx={{
+              marginTop: '10rem',
+            }}
+            variant="contained"
+            color="secondary"
+            size="large"
+          >
+            {' '}
+            Potřebuji pomoc
+          </Button>
         </Container>
       </SectionsAU>
     </GenericPage>

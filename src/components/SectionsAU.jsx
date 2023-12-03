@@ -6,38 +6,36 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import {Container} from '@mui/material';
 
-export default function SectionsAU({title, cards, children}) {
-    return (
-        <Grid
-            sx={{
-                margin: '12rem 0 0'
-            }}
-            container
-            direction="column"
-            alignItems="center"
-            justifyContent="center"
-            flexDirection={{
-                xs: 'row',
-                md: 'column'
-            }}
-        >
-            <Typography textAlign={'center'} variant="h6" gutterBottom>
-                {title}
-            </Typography>
-            <Grid
-                sx={{margin: '0 2rem '}}
-                alignItems={'center'}
-                justifyContent={'space-around'}
-                container
-                spacing={8}
-            >
-                {cards.map(({title, img, content}) => (
-                    <Card key={title} image={img} title={title}>
-                        {content}
-                    </Card>
-                ))}
-            </Grid>
-            <Container sx={{margin: '0 auto '}}>{children}</Container>
-        </Grid>
-    );
+export default function SectionsAU({ title, cards, children }) {
+  return (
+    <Grid
+      sx={{
+        height: '100vh',
+        position: 'sticky',
+        top: '64px',
+        backgroundColor: '#fefae0',
+      }}
+      container
+      direction="column"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <Typography textAlign={'center'} variant="h6" gutterBottom>
+        {title}
+      </Typography>
+      <Grid
+        sx={{ margin: 'O 20rem', gap: '1rem' }}
+        alignItems={'center'}
+        justifyContent={'space-around'}
+        container
+      >
+        {cards.map(({ title, img, content }) => (
+          <Card key={title} image={img} title={title}>
+            {content}
+          </Card>
+        ))}
+      </Grid>
+      <Container sx={{ margin: '2rem  auto' }}>{children}</Container>
+    </Grid>
+  );
 }

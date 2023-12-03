@@ -72,7 +72,8 @@ export const AboutUs = () => {
               'Rozšiřujeme povědomí o inkluzivitě a bojujeme proti stereotypům prostřednictvím osvětových iniciativ a sdílení příběhů.',
           },
         ]}
-      ></SectionsAU>
+      >
+      </SectionsAU>
 
       <SectionsAU
         title={'Jak se můžete připojit:'}

@@ -6,7 +6,16 @@ import Typography from '@mui/material/Typography';
 
 export default function Card({ title, image, children }) {
   return (
-    <Grid md={4}>
+    <Grid
+      sx={{
+        height: '100%',
+        width: 'maxContent',
+        backgroundColor: '#b7B7B7',
+        borderRadius: '16px',
+        boxShadow: '5px 5px white',
+      }}
+      md={3}
+    >
       <CardMedia
         sx={{ objectFit: 'contain' }}
         component="img"
@@ -23,7 +32,7 @@ export default function Card({ title, image, children }) {
         >
           {title}
         </Typography>
-        <Typography textAlign={"center"} variant="body2" color="text.secondary">
+        <Typography textAlign={'center'} variant="body2" color="text.secondary">
           {children}
         </Typography>
       </CardContent>

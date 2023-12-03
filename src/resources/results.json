@@ -1,12 +1,7 @@
 {
   "male.stress": {
     "title": "Stres v práci",
-    "descriptions": ["Stresující období v práci může být náročné a mít vliv na vaše fyzické a duševní zdraví. Vaše pocity stresu jsou zcela oprávněné a je důležité se o sebe postarat.",
-      "Nejprve si dejte čas na to, abyste si udělal přehled o svých úkolech a odpovědnostech. Rozdělení práce na menší kroky a stanovení priorit vám může pomoci zvládat všechny úkoly efektivněji.",
-      "Nemějte obavy z toho, že budete muset všechno dělat sami. Pokud je to možné, zkuste úkoly delegovat kolegům. Spolupráce v týmu může být velkou pomocí.",
-      "Důležité je také si dávat pravidelné krátké přestávky, abyste si mohl na chvíli odpočinout a nabrat novou energii. A pamatujte na svůj zdravý životní styl, zahrnující pohyb, stravování a dostatek spánku.",
-      "Pokud se cítíte náročně a tlak na vás je neúnosný, je v pořádku mluvit s nadřízenými o svém stavu a tlaku, který prožíváte. Otevřená komunikace může vést k lepším řešením.",
-      "Nemusíte to všechno zvládat sami. Pokud budete potřebovat podporu nebo radu, nebojte se obrátit na odborníka na zvládání stresu nebo psychologa. Vaše pohoda a zdraví jsou důležité. Buďte trpělivý sám k sobě a pamatujte na to, že tuto výzvu můžete zvládnout."
+    "descriptions": ["Stresující období v práci může být náročné a mít vliv na vaše fyzické a duševní zdraví. Vaše pocity stresu jsou zcela oprávněné a je důležité se o sebe postarat. Nejprve si dejte čas na to, abyste si udělal přehled o svých úkolech a odpovědnostech. Rozdělení práce na menší kroky a stanovení priorit vám může pomoci zvládat všechny úkoly efektivněji. Nemějte obavy z toho, že budete muset všechno dělat sami. Pokud je to možné, zkuste úkoly delegovat kolegům. Spolupráce v týmu může být velkou pomocí. Důležité je také si dávat pravidelné krátké přestávky, abyste si mohl na chvíli odpočinout a nabrat novou energii. A pamatujte na svůj zdravý životní styl, zahrnující pohyb, stravování a dostatek spánku. Pokud se cítíte náročně a tlak na vás je neúnosný, je v pořádku mluvit s nadřízenými o svém stavu a tlaku, který prožíváte. Otevřená komunikace může vést k lepším řešením. Nemusíte to všechno zvládat sami. Pokud budete potřebovat podporu nebo radu, nebojte se obrátit na odborníka na zvládání stresu nebo psychologa. Vaše pohoda a zdraví jsou důležité. Buďte trpělivý sám k sobě a pamatujte na to, že tuto výzvu můžete zvládnout."
     ],
     "steps": [
       {
@@ -31,7 +26,7 @@
       },
       {
         "title":  "Pracujte na relaxaci",
-        "desc": "Cvičení relaxace, meditace nebo jóga mohou vám pomoci uvolnit napětí a zvládat stres.\n"
+        "desc": "Cvičení relaxace, meditace nebo jóga mohou vám pomoci uvolnit napětí a zvládat stres."
       },
       {
         "title":  "Zvažte odbornou pomoc",
@@ -43,5 +38,357 @@
       }
     ],
     "end_desc": "Pamatujte si, že stres je běžnou součástí života, ale důležité je vědět, jak s ním správně pracovat a vyrovnávat se s ním. Není ostuda požádat o pomoc, a měli byste se postarat o své zdraví a pohodu."
+  },
+  "male.domestic_violence": {
+    "title": "Domácí násilí u mužů",
+    "descriptions": ["Chápeme, že může být nesmírně těžké otevřít se o situaci, zejména v prostředí, kde existuje nespravedlivé stigma spojené s mužskými oběťmi domácího násilí. Nyní, více než kdy jindy, je důležité zdůraznit, že tvé pocity jsou platné a tvé utrpení je reálné. Bezpečí, podpora a porozumění jsou práva, která ti náleží, bez ohledu na pohlaví. Víme, že společenský tlak může způsobit, že se cítíš osamělý a že může být obtížné hovořit o zneužívání ze strany partnerky. Máme pro tebe informace, zdroje a odborníky, kteří respektují tvou situaci a jsou připraveni poskytnout ti pomoc. Soudíme bez předsudků a věříme, že každý člověk má právo na bezpečí a respekt. Tato stránka je zde, abychom ti pomohli na tvé cestě k uzdravení."
+    ],
+    "steps": [
+      {
+        "title":  "Zajisti svou bezpečnost",
+        "desc": "Pokud jsi v nebezpečí nebo ti hrozí násilí, tvá bezpečnost je nejdůležitější. Pokud je to možné, snaž se co nejdříve dostat na bezpečné místo, kde můžeš být chráněn před jakýmkoli nebezpečím. Může to být obtížné, ale hledání bezpečí je prvním krokem."
+      },
+      {
+        "title":  "Hovoř s důvěryhodnou osobou",
+        "desc": "Vybrání si důvěryhodné osoby, kterému můžeš svěřit svou situaci, je klíčové. To může být přítel, rodinný příslušník, nebo profesionál, kterému věříš. Sdílení problému je důležité pro zahájení procesu uzdravení."
+      },
+      {
+        "title":  "Kontaktuj organizace poskytující pomoc pro oběti domácího násilí",
+        "desc": "Existují organizace, které se specializují na pomoc mužům v obtížné životní situaci. Hledání místních organizací nebo telefonních linek pomoci pro muže může být prvním krokem k získání odborné podpory."
+      },
+      {
+        "title":  "Konzultace s odborníkem",
+        "desc": "Odborná psychologická podpora může být klíčová pro zvládání stresu a trauma spojeného s domácím násilím. Konzultuj s terapeutem nebo psychologem, kteří jsou zkušení v oblasti rodinné dynamiky a násilí."
+      },
+      {
+        "title":  "Uchovávej důkazy o násilí",
+        "desc": "Když je to bezpečné, pokus se uchovat důkazy o násilí. Může to být významné při případných právních krocích. Zachovej si záznamy, fotografie nebo další důkazy, které by mohly být užitečné."
+      },
+      {
+        "title":  "Neváhej hledat podporu od přátel nebo rodiny",
+        "desc": "Otevření se svým blízkým o problému může být náročné, ale mohou ti poskytnout emocionální oporu. Přátelé a rodina mohou být klíčovou součástí tvé podpory a síly."
+      },
+      {
+        "title":  "Konzultace s právníkem",
+        "desc": "Pokud je to vhodné, hledej právní radu. Právník ti může poskytnout informace o možnostech ochrany a právních opatřeních, které můžeš podniknout."
+      },
+      {
+        "title":  "Hledání podpory ve skupině",
+        "desc": "Skupiny podpory pro muže v podobné situaci mohou být užitečné. Setkávání se s lidmi, kteří prošli podobným, může poskytnout porozumění a uznání."
+      }
+    ],
+    "end_desc": "Je důležité si uvědomit, že hledání pomoci neznamená slabost, a že existuje podpora dostupná i pro muže. Tvá bezpečnost a pohoda jsou stejně důležité jako u kohokoli jiného."
+  },
+  "race.common": {
+    "title": "Rasové minority",
+    "descriptions": ["Chápeme, že to může být těžké období plné emocí, nejistoty a často i odcizení. Rasismus není jen teoretický koncept; je to skutečná a bolestná zkušenost pro mnoho jednotlivců. Nyní, více než kdy jindy, zdůrazňujeme důležitost otevřené konverzace o rasismu a poskytování podpory těm, kteří tuto bolest prožívají. Vstoupit do prostoru, kde se o něm svobodně mluví, může být klíčové pro porozumění, sdílení a uzdravení. Rozumíme, že mnoho lidí, kteří zažívají rasismus, se může cítit izolovaně. Proto máme pro vás připraveny informace, zdroje a komunitu lidí, kteří respektují vaše zkušenosti a jsou připraveni poskytnout vám podporu. Chceme být místem, kde se můžete spojit s ostatními, kteří sdílejí podobné zkušenosti, a společně hledat sílu a odhodlání k pozitivní změně. Soudíme bez předsudků a věříme, že každý člověk má právo na rovnost, bezpečí a respekt. Tato stránka je zde, abychom vám pomohli na cestě ke sdílení, uzdravení a změně."
+    ],
+    "steps": [
+      {
+        "title":  "Hovoř s důvěryhodnými osobami",
+        "desc": "Vyhledávání podpory ve svém okolí je klíčové pro psychickou pohodu. Sdílení svých zkušeností s blízkými lidmi může nejen poskytnout emocionální oporu, ale také vytvořit síť lidí, kteří ti mohou být oporou v boji proti rasismu. Kromě rodiny a přátel se můžeš obrátit na kolegy nebo spolužáky, kteří by mohli mít podobné zkušenosti. Společná komunikace může posílit solidaritu a vytvořit prostředí vzájemné podpory. Pokud pociťuješ nejistotu nebo strach z otevřeného hovoření o své situaci, můžeš zvážit také konzultaci s profesionálem, jako jsou psychologové nebo sociální pracovníci."
+      },
+      {
+        "title":  "Vyhledej podporu v komunitě",
+        "desc": "Zapojení se do komunitních aktivit a organizací zaměřených na boj proti rasismu může poskytnout možnost setkávat se s lidmi, kteří sdílí podobné hodnoty. To může být inspirující a motivující prostředí pro aktivní účast a boj proti nespravedlnostem. Diskuse a sdílení perspektiv s různorodými lidmi ve své komunitě mohou vést k většímu porozumění různorodosti a posilovat hlas těch, kteří bojují proti rasismu. Aktivní účast ve skupinách nebo projektech, které podporují rovnost a boj proti rasismu, může být konkrétním způsobem, jak přispět k pozitivním změnám ve společnosti."
+      },
+      {
+        "title":  "Konzultace s odborníkem",
+        "desc": "Psychologická podpora může být klíčová při zvládání emocí spojených s rasismem. Konzultace s odborníkem může poskytnout prostor pro hlubší sebereflexi a posílení emocionální odolnosti v boji proti diskriminaci. Odborník v oblasti psychologie může pomoci identifikovat konkrétní strategie pro zvládání stresu a emocí spojených s rasismem. To může zahrnovat techniky sebeobrany, meditaci nebo další nástroje pro posílení psychické odolnosti. Psychoterapie může být také prostředkem k prozkoumání kořenů rasismu ve společnosti a hledání individuálních i kolektivních cest k aktivnímu zapojení do boje proti němu."
+      },
+      {
+        "title":  "Informuj své nadřízené nebo školitele",
+        "desc": "Pokud je rasismus součástí pracovního nebo školního prostředí, informuj své nadřízené, učitele nebo školitele o situaci. Mnoho organizací má politiky proti rasismu, a mohou podniknout kroky k řešení problému. Otevřeným hovorem můžeš přispět k vytváření bezpečného prostředí pro všechny. Podpora od autorit a institucí může hrát klíčovou roli v prevenci a řešení rasismu ve sdílených prostorách."
+      },
+      {
+        "title":  "Konzultuj s organizacemi zaměřenými proti rasismu",
+        "desc": "Existují organizace, které se specializují na boj proti rasismu. Vyhledej takové organizace, které mohou poskytnout podporu, informace a strategie pro aktivní zapojení do boje proti rasismu. Mnoho z těchto organizací nabízí zdroje, workshopy a kampaně zaměřené na vzdělávání a osvětu veřejnosti. Spolupráce s těmito organizacemi může poskytnout konkrétní kroky k podpoře rovnosti a boji proti diskriminaci."
+      },
+      {
+        "title":  "Zapoj se do vzdělávacích aktivit",
+        "desc": "Edukuj se o rasismu, jeho historii a různých formách. Četba, účast na workshopech nebo sledování dokumentárních filmů mohou poskytnout hlubší porozumění této problematice. Vzdělávání není pouze pro osobní obohacení, ale také pro aktivní účast ve veřejné diskusi o rovnosti a spravedlnosti. Sebevzdělávání může posílit tvou schopnost argumentovat proti rasismu a přispívat k vytváření inkluzivnější společnosti."
+      },
+      {
+        "title":  "Zaznamenávej incidenty",
+        "desc": "Pokud jsi svědkem nebo obětí rasistického chování, zaznamenej incidenty. Získané důkazy mohou být užitečné při případných právních krocích nebo konzultacích s právníky. Zaznamenání konkrétních situací, dat a popisu incidentů může poskytnout objektivní informace o rozsahu rasismu ve tvém životě. Tato data mohou být také užitečná při prezentaci problému před relevantními autoritami nebo veřejností."
+      },
+      {
+        "title":  "Kontaktuj úřady pro ochranu lidských práv",
+        "desc": "V mnoha zemích existují úřady nebo neziskové organizace zabývající se ochranou lidských práv. Obrát se na ně může být dalším krokem k řešení rasistických situací. Úřady pro ochranu lidských práv mají za úkol monitorovat a vyšetřovat případy diskriminace a rasismu. Konzultace s těmito organizacemi může poskytnout právní podporu a informace o právech v oblasti boje proti rasismu."
+      },
+      {
+        "title":  "Podporuj organizace bojující proti rasismu",
+        "desc": "Finančně nebo časově podporuj organizace, které aktivně bojují proti rasismu. Tímto způsobem můžeš přispět k většímu povědomí a změnám ve společnosti. Organizace bojující proti rasismu často provádějí výzkum, organizují kampaně a poskytují podporu obětem rasismu. Tvá podpora může být klíčovým prvkem v udržování těchto iniciativ a posilování hlasu menšin."
+      },
+      {
+        "title":  "Podporuj legislativní změny",
+        "desc": "Angažuj se v podpoře legislativních změn zaměřených na boj proti rasismu. To může zahrnovat účast ve veřejných hlasováních, podporu politiků, kteří prosazují rovnost, a podporu kampaní na změnu diskriminačních zákonů. Politický aktivismus a občanská účast jsou důležitými nástroji pro transformaci společnosti a zajištění práv všech občanů. Otevřený dialog s politiky a úřady může přispět k tvorbě inkluzivnějších politik a systémů, které brání rasismu a diskriminaci."
+      }
+    ],
+    "end_desc": ""
+  },
+  "lqbtq+.common": {
+    "title": "LGBTQ+",
+    "descriptions": ["Rozumíme, že cítit se vyčleněným ze společnosti kvůli své sexuální orientaci může být náročné a citlivé téma. Chápeme, že to může být období plné emocí, osamělosti a hledání identity. Nyní, více než kdy jindy, zdůrazňujeme důležitost poskytování bezpečného prostoru pro ty, kteří se cítí vyčlenění z důvodu své sexuální orientace. Vítáme všechny, kteří hledají porozumění, podporu a spojení s ostatními, kteří sdílejí podobné zkušenosti. Rozumíme, že mnoho lidí se může cítit izolovaně a hledat místo, kde mohou být sami sebou. Naším cílem je poskytnout informace, zdroje a komunitu lidí, kteří jsou připraveni naslouchat a podporovat. Soudíme bez předsudků a věříme, že každý člověk má právo na lásku, akceptaci a šťastný život. Tato stránka je zde, abychom vám pomohli na cestě ke sdílení, akceptaci a nalezení podpory."
+    ],
+    "steps": [
+      {
+        "title":  "Hledání Podpory ve Společenství",
+        "desc": "Připojení k LGBT+ společenství, buď online nebo v místní oblasti, může poskytnout podporu od lidí, kteří sdílí podobné zkušenosti. Společné setkání může nabídnout emocionální spojení a posílení pocitu přijetí."
+      },
+      {
+        "title":  "Profesionální Podpora",
+        "desc": "Využití služeb profesionálního terapeuta nebo psychologa, který má zkušenosti s prací s LGBT+ jednotlivci, může být klíčové pro zvládání emocionálních nároků spojených s odsuzováním. Tato podpora může pomoci objevovat zdravější způsoby zvládání stresu."
+      },
+      {
+        "title":  "Vzdělávání a Otevřená Komunikace",
+        "desc": "Aktivní komunikace s okolím o své sexuální orientaci a poskytování informací může pomoci eliminovat předsudky a nejistoty. Edukace lidí kolem vás může vytvořit prostředí porozumění a tolerance."
+      },
+      {
+        "title":  "Sebeuvědomění",
+        "desc": "Práce na sebeuvědomění a sebeakceptaci je proces, který může posilovat odolnost vůči odsuzování. Sebeobjevování a přijetí vlastní identity mohou vést k většímu sebevědomí a pohodě."
+      },
+      {
+        "title":  "Bezpečnostní Opatření",
+        "desc": "Důležité je vyhýbat se situacím, které mohou přinést fyzické nebo emocionální nebezpečí. Prioritou je chránit své vlastní bezpečí a hledat bezpečné prostředí."
+      },
+      {
+        "title":  "Právní Ochrana",
+        "desc": "Seznamte se s místními zákony a právními ochranami týkajícími se diskriminace na základě sexuální orientace. Hledání právní ochrany může poskytnout další záruky pro vaše práva a rovnost."
+      },
+      {
+        "title":  "Zaměstnanecká Podpora",
+        "desc": "Zjistěte, zda vaše zaměstnání poskytuje politiky a zdroje podporující rovnost a diverzitu. Většina firem dnes má politiky proti diskriminaci, což může vytvořit inkluzivní pracovní prostředí."
+      },
+      {
+        "title":  "Zvažte Aktivismus",
+        "desc": "Zapojení do aktivismu a boje za rovnost může být prostředkem k vlastnímu zapojení a změně ve společnosti. Sdílení svého příběhu může přispět k celkovému povědomí o výzvách, kterým LGBT+ komunita čelí."
+      },
+      {
+        "title":  "Linky Pomoci",
+        "desc": "Existují linky pomoci a organizace, které jsou zaměřeny na podporu LGBT+ komunity. Hledání externí pomoci a sdílení svých pocitů s odborníky může poskytnout perspektivu a pomoc."
+      },
+      {
+        "title":  "Ochrana na Internetu",
+        "desc": "Bezpečné chování online je klíčové. Ujistěte se, že chráníte svou identitu a vyhýbáte se negativním komentářům. Bezpečnostní opatření online mohou chránit váš duševní a emocionální stav."
+      }
+    ],
+    "end_desc": ""
+  },
+  "happy.common": {
+    "title": "Spokojený člověk",
+    "descriptions": ["Nyní je ideální čas zaměřit se na svůj vlastní rozvoj a pohodu. Na této stránce najdeš informace, tipy a návody, které ti mohou pomoci objevit nové možnosti a posunout se vpřed. Občasné pocity přetížení nebo nepříjemnosti jsou součástí lidského života, a proto je důležité vědět, kde hledat podporu. Máme pro tebe také informace o tom, jak konzultovat s odborníkem nebo psychologem, pokud bys cítil(a) potřebu sdílet své pocity s profesionálem. Naše stránky jsou zde, abychom tě podpořili na tvé cestě k osobnímu rozvoji a pohodě."
+    ],
+    "steps": [
+      {
+        "title":  "Pravidelná Reflexe",
+        "desc": "Pravidelná reflexe nad svými emocemi a myšlenkami je klíčovým krokem k porozumění sobě samému. Může vás to naučit rozpoznávat vzory chování, které ovlivňují vaše emocionální reakce a zvyšovat povědomí o vlastních potřebách. Zkoumání, proč reagujete na určité situace určitým způsobem, vám může pomoci identifikovat potenciální triggery nebo oblasti, na kterých byste mohli pracovat. Reflexe vytváří prostor pro sebepoznání a proaktivní řízení svých emocí. Proces reflexe není o sebekritice, ale o zvědavém zkoumání svých vlastních emocí. Může to poskytnout klíčové nástroje k efektivnějšímu zvládání stresu a lepšímu porozumění vlastnímu duševnímu zdraví."
+      },
+      {
+        "title":  "Praktikování Empatie",
+        "desc": "Empatie, schopnost vcítit se do pocity a perspektivy druhých, je klíčovým prvkem sociální inteligence. Aktivní naslouchání a snažení se chápat, co prožívají ostatní, může posilovat mezilidské vztahy. Empatie není pouze o porozumění, ale i o projevování soucitu a podpory. Kladný vliv empatického přístupu může posílit vztahy v práci, rodině a v sociálním prostředí. Praktikování empatie může mít širší společenský dopad tím, že přispěje k vytváření inkluzivnějších komunit a snižování konfliktů."
+      },
+      {
+        "title":  "Rozvoj Mezilidských Dovedností",
+        "desc": "Mezilidské dovednosti, jako jsou efektivní komunikace a řešení konfliktů, jsou klíčové pro budování zdravých vztahů. Otevřená komunikace, schopnost vyjádřit své myšlenky a naslouchat ostatním, posiluje propojení s okolím. Efektivní komunikace není pouze o verbálním projevu, ale zahrnuje i neverbální signály a schopnost číst emocionální podtext. Tyto dovednosti mohou podporovat harmonii v profesním i osobním životě. Řešení konfliktů s respektem k druhým může vést k udržitelnějším a spokojeným vztahům. Mezilidské dovednosti jsou nezbytné pro budování pozitivních interakcí a kultivaci zdravých sociálních vztahů."
+      }
+    ],
+    "end_desc": "Tímto způsobem můžete postupovat v rozvoji každého z těchto bodů, abyste dosáhli hlubšího porozumění sobě samým a zlepšili svou sociální a emocionální inteligenci."
+  },
+  "kid.bullying": {
+    "title": "Šikana",
+    "descriptions": ["Je mi líto, že se dostáváš do takové nepříjemné situace ve škole, kde tě spolužáci trápí a ubližují ti. To může být opravdu nepříjemné a frustrující. Tvé pocity jsou důležité a neměly by být ignorovány. Mysli na to, že mluvit o této situaci s dospělými osobami, jako jsou  rodiče nebo učitelé, může být prvním krokem k řešení. Můžeš jim sdělit, co se děje, a požádat o jejich pomoc. Sám/a s tím nemusíš bojovat. Důležité je také hledat podporu mezi svými vrstevníky. Společně můžete zkoumat, jak se postavit šikaně a jak se chránit. Nezapomínejte na své emocionální zdraví. Pokud se cítíte velmi těžce zasaženi, je v pořádku vyhledat psychologickou podporu nebo poradenství. Jste silná a hodnotná osoba, a měli byste mít právo na respekt a bezpečí ve škole."
+    ],
+    "steps": [
+      {
+        "title":  "Promluv o tom s někým důvěryhodným",
+        "desc": "Hovoř o své situaci s dospělým, kterému věříš, například s rodiči, učitelem nebo školním psychologem. Informování někoho o situaci je prvním krokem k řešení. Pokud máš strach a chtěl by jsi si o tom promluvit s dospělým anonymně, obrať se na linku bezpečí: www.linkabezpeci.cz/ tel.: 116 111 ( zdarma)"
+      },
+      {
+        "title":  "Nekonfrontuj osobu nebo osoby, které Tě šikanují samostatně",
+        "desc": "Snaž se vyhnout konfrontacím s šikanaři, které by mohly situaci ještě zhoršit. Místo toho mluv s dospělými o tom, co se děje."
+      },
+      {
+        "title":  "Zjisti, zda ve škole existují protišikanové politiky",
+        "desc": "V některých školách existují speciální programy nebo politiky proti šikaně. Zjisti, jestli je ve tvé škole něco podobného a jak by ti to mohlo pomoci."
+      },
+      {
+        "title":  "Zapoj se do skupin a aktivit",
+        "desc": "Zkoušej zapojit se do skupin nebo aktivit mimo školu, kde můžeš najít podporu a nové přátele, kteří tě budou respektovat."
+      },
+      {
+        "title":  "Zachovej si důvěru v sebe",
+        "desc": "Šikana může poškodit sebevědomí. Snaž se zachovat si víru v sebe a své kvality. Mohou ti v tom pomoci rozhovory s psychologem."
+      },
+      {
+        "title":  "Dbej na svoji bezpečnost",
+        "desc": "Pokud je situace vážná a cítíš se ohrožený/á, neváhej se obrátit na policii nebo jiné orgány zajišťující bezpečnost."
+      },
+      {
+        "title":  "Sleduj pravidla školy",
+        "desc": "Dodržuj pravidla školy a chovej se tak, aby sis nevystavoval/a dalším problémům. To může pomoci ukázat, že jsi zodpovědný/á žák."
+      }
+    ],
+    "end_desc": "Pamatuj si, že šikanu nelze řešit samostatně, a je důležité mít podporu od dospělých a dalších vrstevníků. Pokud se situace nelepší nebo se zhoršuje, neváhej konzultovat s právníkem nebo dalšími odborníky na dětská práva. Šikana je vážný problém, a měl/a bys mít právo na bezpečné a zdravé školní prostředí."
+  },
+  "kid.domestic_violence": {
+    "title": "Domácí násilí u dětí",
+    "descriptions": ["Chápu, že může být obtížné otevřít se ohledně citlivých věcí, ať už se jedná o emoce nebo situace, kterými procházíš. První a nejdůležitější věc, kterou bychom chtěli, abys věděl/a, je, že nejsem sám(a). Jsme tady pro tebe, ať už se chceš podělit o své pocity, nebo prostě jen potřebuješ někoho, kdo poslouchá. Tvé pocity jsou důležité a zaslouží si respekt. Může být nesmírně těžké mluvit o věcech, které nás bolí nebo nás tíží, a to je v pořádku. Chceme, abys věděl/a, že si zasluhuješ bezpečí, lásku a podporu. V případě, že bys chtěl/a hovořit s někým odborným nebo hledat pomoc, existuje mnoho organizací a profesionálů, kteří mohou poskytnout podporu v obtížných situacích. Nemusíš to zvládat sám(a), a je silné hledat pomoc, když ji potřebuješ. Jsme tady pro tebe a věříme, že si zasloužím bezpečí a štěstí."
+    ],
+    "steps": [
+      {
+        "title":  "Zajisti svou bezpečnost",
+        "desc": "Pokud jsi v nebezpečí nebo pokud ti hrozí násilí, tvá bezpečnost je nejdůležitější. Snaž se co nejdříve dostat na bezpečné místo, kde můžeš být chráněn/a před jakýmkoli nebezpečím. Pokud je to možné, zavolej místní tísňovou linku a informuj je o své situaci."
+      },
+      {
+        "title":  "Hovoř s důvěryhodnou osobou",
+        "desc": "Sdílej svou situaci s někým, komu věříš a kdo může poskytnout podporu. To může být učitel, školní psycholog, kamarád nebo jiná důvěryhodná osoba. Otevřená komunikace je klíčová, aby tě mohli správně podporovat."
+      },
+      {
+        "title":  "Kontaktuj organizace pro pomoc dětem",
+        "desc": "Existují organizace, které jsou zaměřeny na pomoc dětem v obtížných situacích. Hledej místní organizace nebo telefonické linky, kde můžeš konzultovat svou situaci s odborníky, kteří jsou připraveni poskytnout ti pomoc a guidance."
+      },
+      {
+        "title":  "Konzultace se školou",
+        "desc": "Škola může hrát klíčovou roli v poskytování podpory. Informuj své učitele nebo školního personál o své situaci. Školní psycholog nebo školní poradce mohou být schopni poskytnout emocionální a praktickou podporu."
+      },
+      {
+        "title":  "Zachovej si důkazy",
+        "desc": "Pokud je to bezpečné, pokus se zachovat důkazy o násilí. To může zahrnovat záznamy, fotografie nebo zprávy, které by mohly být užitečné při dalších krocích. Důkazy mohou hrát klíčovou roli, pokud bude nutné zahájit právní postup."
+      },
+      {
+        "title":  "Zavolej tísňovou linku",
+        "desc": "V případě okamžitého nebezpečí neváhej zavolat místní tísňovou linku (např. 112). Tato linka ti poskytne naléhavou pomoc a zajistí, aby ti bylo co nejrychleji poskytnuto bezpečí."
+      },
+      {
+        "title":  "Neváhej hovořit s učitelem nebo dospělými ve škole",
+        "desc": "Pokud máš strach nebo je ti obtížné hovořit o své situaci, najdi vhodný okamžik a promluv s dospělým ve škole, kterému věříš. Měj na paměti, že jsou zde k tomu, aby ti pomohli, a mohou být klíčovým spojením mezi tebou a dalšími formami podpory."
+      }
+    ],
+    "end_desc": "Nezapomeň, že nejsi sám/sama, a existuje podpora, která je tu pro tebe. Hledání pomoci je odvážný krok a první krok k bezpečnější budoucnosti."
+  },
+  "female.gender_inequality": {
+    "title": "Genderová nerovnost",
+    "descriptions": ["Rozumím, že se nacházíte v citlivé situaci, kde máte pocit, že nejste náležitě respektována ve svém pracovním kolektivu. To může být velmi frustrující a nepříjemné. Vaše názory a příspěvek jsou důležité, bez ohledu na váš pohlaví. Může být užitečné hovořit o svých obavách s nadřízenými nebo personalistou. Snažte se vysvětlit, jaký máte pocit a že byste ráda měla možnost aktivně se zapojit do pracovního týmu. Je také dobré hledat podporu od kolegů, kteří mohou sdílet vaše obavy a společně s vámi hledat způsoby, jak zlepšit komunikační klima na pracovišti. Zároveň si uvědomuji, že každá situace je jedinečná, a proto může být užitečné konzultovat s odborníkem na komunikaci nebo psychologem, kteří vám mohou poskytnout individuální podporu a strategie pro zvládání této situace. Mějte na paměti, že zlepšení komunikace a respektu na pracovišti by mělo být společným zájmem všech zaměstnanců, a vaše snahy v této oblasti jsou hodnotné."
+    ],
+    "steps": [
+      {
+        "title":  "Komunikuj o svých pocitech",
+        "desc": "Pokud se cítíš nerespektována, je důležité, abys o svých pocitech promluvila s kolegy nebo nadřízenými. Mluvte o tom, jak se cítíš a jaké konkrétní situace nebo chování tě obtěžuje. Otevřená a konstruktivní komunikace může vést k lepšímu porozumění."
+      },
+      {
+        "title":  "Hledání spojenců",
+        "desc": "Pokud máš v kolektivu kolegy, kteří jsou nakloněni tvojí situaci nebo mají podobné zkušenosti, můžeš se s nimi spojit. Společný hlas může být silnější."
+      },
+      {
+        "title":  "Zaměř se na svoje dovednosti a znalosti",
+        "desc": "Pokud se cítíš nerespektována, může být užitečné dokazovat svou hodnotu prostřednictvím svých dovedností a znalostí. Pokaždé, kdy ukážeš, že jsi kompetentní a profesionální, můžeš získat více respektu od kolegů."
+      },
+      {
+        "title":  "Osobní rozvoj",
+        "desc": "Pokud máš zájem, můžeš pracovat na svém osobním rozvoji, abys získala více sebevědomí. Kurzy, tréninky nebo mentoring mohou ti pomoci posílit tvoje dovednosti a sebejistotu."
+      },
+      {
+        "title":  "Hovoř s nadřízenými",
+        "desc": "Pokud se cítíš nerespektována ze strany nadřízených, měj s nimi otevřený a upřímný rozhovor. Zdůrazni svoje přínosy a připomeň jim své úspěchy."
+      },
+      {
+        "title":  "Zvaž změnu pracovního místa",
+        "desc": "Pokud se situace dlouhodobě nezlepšuje a cítíš se velmi nespokojena, mohla bys zvážit možnost změnit pracovní místo. Práce v prostředí, kde se cítíš respektována, může přinést lepší pracovní a osobní pocity."
+      },
+      {
+        "title":  "Poradenství nebo terapie",
+        "desc": "Pokud situace vážně ovlivňuje tvou pohodu, můžeš zvážit možnost konzultace s psychoterapeutem nebo koučem, kteří ti mohou pomoci zvládat stres a zlepšit sebevědomí."
+      }
+    ],
+    "end_desc": "Pamatuj si, že mít právo na respekt je základní a důležité. Pracovní prostředí by mělo být bezpečné a podporující pro všechny, bez ohledu na pohlaví.Vaše schopnosti a názory jsou cenné a měly by být respektovány bez ohledu na vaše pohlaví. Mějte na paměti, že pracoviště by mělo být místo, kde se každý cítí vítán a respektován, a měli byste mít možnost plně se účastnit pracovního procesu."
+  },
+  "female.sexual_harassment": {
+    "title": "Sexuální narážky",
+    "descriptions": ["Je důležité, abyste se cítila bezpečně a respektována na svém pracovišti. Pokud se cítíte vystavena sexuálním narážkám od kolegů, není to vaše chyba a máte právo na ochranu a podporu. Pokud se setkáte s nevhodným chováním, mějte na paměti, že máte právo to odmítnout a vyjádřit, že takové chování nepřijímáte. Pokuste se otevřeně hovořit s nadřízenými nebo personálním oddělením o situaci, kterou prožíváte. Organizace by měla mít zájem na řešení tohoto problému. Dokumentování incidentů může být užitečné pro další kroky. Pokud můžete, najděte důvěryhodné kolegy, kteří vám mohou poskytnout podporu. Vaše práva by měla být chráněna a měli byste mít možnost jednat ve svém zájmu. Sledujte postup vyšetřování a neváhejte vyhledat psychologickou podporu, pokud to budete potřebovat, protože takové situace mohou být emocionálně náročné. Pokud budete potřebovat další podporu nebo rady, můžete se také obrátit na právního zástupce nebo organizace specializující se na práva zaměstnanců. Je důležité, abyste se necítila izolovaná a hledala si pomoc, která vám pomůže řešit tuto obtížnou situaci. Vaše pohoda a bezpečnost jsou na prvním místě, a měli byste mít právo na respekt a ochranu na pracovišti."
+    ],
+    "steps": [
+      {
+        "title":  "Odmítněte nevhodné chování",
+        "desc": "Pokud jste svědkem nebo jste sami vystavena sexuálním narážkám, okamžitě a jasně vyjádřete, že takové chování odmítáte. Můžete říct něco jako: Takové poznámky nebo chování nejsou na pracovišti vhodné. Prosím, přestaňte s tím."
+      },
+      {
+        "title":  "Dokumentujte situaci",
+        "desc": "Zaznamenejte data, časy, místa a podrobnosti o každé incidentu sexuálního obtěžování. Toto může být užitečné jako důkaz, pokud budete muset situaci řešit."
+      },
+      {
+        "title":  "Hovořte s nadřízenými nebo personalistou",
+        "desc": "Informujte svého nadřízeného nebo personalistu o situaci a požádejte je o pomoc. Každá seriózní společnost by měla mít politiku proti sexuálnímu obtěžování a postup pro jeho řešení"
+      },
+      {
+        "title":  "Konzultujte se svým právním zástupcem",
+        "desc": "Pokud se situace nezlepší nebo budete potřebovat další rady, můžete konzultovat se svým právním zástupcem nebo organizacemi zabývajícími se právy zaměstnanců."
+      },
+      {
+        "title":  "Hovořte s ostatními kolegy",
+        "desc": "Pokud máte pocit, že nejste sami, můžete hovořit s dalšími kolegy, kteří byli svědky nebo byli také vystaveni sexuálnímu obtěžování. Společný hlas může být silnější."
+      },
+      {
+        "title":  "Sledujte postup",
+        "desc": "Pokud společnost má postup pro řešení sexuálního obtěžování, sledujte, jakým způsobem se situace řeší a zda je vaše obavy a pocity brány vážně."
+      }
+    ],
+    "end_desc": "Je důležité, abyste se nedostala do izolované situace a hledala podporu a ochranu. Sexuální obtěžování na pracovišti je porušením pracovního práva a mělo by být řešeno vážně a důkladně. Pamatujte, že nejste sama, a mnoho lidí a organizací stojí na vaší straně, aby vám pomohli v této obtížné situaci"
+  },
+  "female.domestic_violence": {
+    "title": "Domácí násilí u žen",
+    "descriptions": ["Chápeme, že to může být velmi náročné období plné emocí a nejistoty. Nyní, více než kdy jindy, je důležité zdůraznit, že nejsi sama. Máš právo na bezpečí, lásku a podporu, a my jsme tady, abychom ti pomohli na tvé cestě k uzdravení. Máme pro tebe informace, zdroje a odborníky, kteří jsou připraveni poskytnout ti pomoc. Věříme, že každá žena má právo žít plnohodnotný a šťastný život, a právě to je naším cílem – podporovat tě na tvé cestě k bezpečí, sebevědomí a nezávislosti. Procházíme tím společně s tebou. Přečti si dále a najdi zde informace, které ti mohou pomoci, a věř, že tu jsme pro tebe."
+    ],
+    "steps": [
+      {
+        "title":  "Zajištění bezpečí",
+        "desc": "Je mi nesmírně líto, že procházíš tímto obtížným obdobím domácího násilí. Tvoje bezpečí je nyní na prvním místě. Pokud jsi v nebezpečí, snaž se dostat na bezpečné místo. Každý z nás má právo na život bez strachu a násilí, a tvá bezpečnost je nám velmi důležitá."
+      },
+      {
+        "title":  "Kontaktování organizací",
+        "desc": "Chápu, jak odvážné je hledat pomoc, a je to krok správným směrem. Je skvělé, že jsi vyhledala organizace specializující se na domácí násilí. Tyto organizace nejen poskytují informace, ale také citlivou podporu a mohou ti pomoci při hledání bezpečného útočiště. Nejsi sám/sama, a existuje pomoc, na kterou máš právo."
+      },
+      {
+        "title":  "Kontaktování místních bezpečnostních složek",
+        "desc": "Pokud se cítíš ohrožen/a, kontaktuj místní bezpečnostní složky. Jsou tu, aby tě chránily, a mohou poskytnout okamžitou pomoc. Tvá bezpečnost je prioritou, a místní složky jsou k dispozici k tomu, aby tě chránily."
+      },
+      {
+        "title":  "Hovoření s důvěryhodnou osobou",
+        "desc": "Je důležité mluvit s lidmi, kterým důvěřuješ. Sdílení své situace s přáteli nebo rodinou může být klíčové pro získání podpory. Máš právo na bezpečí a podporu a nejsi sám/sama ve svém boji."
+      },
+      {
+        "title":  "Konfrontování domácího násilníka",
+        "desc": "Chápu, že konfrontovat násilníka může být nesmírně obtížné a riskantní. Tvá bezpečnost a pohoda jsou prioritou, a výběr správného okamžiku pro jednání může být klíčový. Pokud je to bezpečné, konfrontace může být jedním z kroků k ukončení násilí."
+      },
+      {
+        "title":  "Hledání právní rady",
+        "desc": "Je skvělé, že zvažuješ právní možnosti. Zjistění o právech, které máš k dispozici, může být důležité pro tvou ochranu. Místní organizace pro oběti domácího násilí často nabízejí právní podporu, která ti může pomoci v této složité situaci."
+      },
+      {
+        "title":  "Získání odborné psychologické podpory",
+        "desc": "Psychologická podpora může být klíčová při zvládání stresu a trauma spojeného s domácím násilím. Navštívte odborného terapeuta nebo psychologa, kteří vám mohou poskytnout nejen emocionální podporu, ale také strategie pro zvládání obtížných emocí a situací."
+      },
+      {
+        "title":  "Nastavení plánu pro odchod",
+        "desc": "Bezpečný odchod je důležitým krokem. Vytvoření plánu pro bezpečný odchod může zahrnovat sběr důležitých dokladů, finančních prostředků a osobních věcí. Zde je důležité být pečlivý a promyšlený, abys mohl/a odejít bezpečně a podporovaně"
+      },
+      {
+        "title":  "Hledání práce nebo ubytování",
+        "desc": "Práce a ubytování jsou klíčovými faktory pro nezávislost. Pokud je to možné, hledej možnosti, které ti umožní žít nezávisle. Místní organizace mohou mít informace o dostupných zdrojích."
+      },
+      {
+        "title":  "Nepřestávejte hledat podporu",
+        "desc": "Nejste sám/sama a nejste viník Hledání podpory a zdrojů může být kontinuální proces. Neboj se hledat pomoc i nadále, ať už jsi v jakékoli fázi této obtížné cesty."
+      }
+    ],
+    "end_desc": ""
   }
 }
+
+
+
+
+
+
+
+

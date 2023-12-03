@@ -34,13 +34,9 @@ export const theme = createTheme({
         },
         h6: {
             fontFamily: "'Ubuntu', monospace",
-            cursor: 'default',
+            cursor: 'pointer',
             userSelect: 'none',
         }
-        // subtitle1: {
-        // }
-        // subtitle2: {
-        // }
     },
     components: {
         MuiButton: {
@@ -53,11 +49,11 @@ export const theme = createTheme({
             },
         },
         MuiAppBar: {
-          styleOverrides: {
-              root: {
-                  boxShadow: "none"
-              }
-          }
+            styleOverrides: {
+                root: {
+                    boxShadow: "none"
+                }
+            }
         }
     }
 

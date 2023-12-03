@@ -7,17 +7,15 @@ import { TestPage } from './pages/Test.jsx';
 import { AboutUs } from './pages/AboutUs.jsx';
 
 export const App = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <Routes>
-          <Route path={'/'} element={<HomePage />} />
-          <Route path="test" element={<TestPage />} />
-          <Route path="onas" element={<AboutUs />} />
-          {/*<Route path="dashboard" element={<Dashboard />} />*/}
-          {/*<Route path="*" element={<NoMatch />} />*/}
-        </Routes>
-      </BrowserRouter>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <BrowserRouter>
+                <Routes>
+                    <Route path={'/'} element={<HomePage />} />
+                    <Route path="test" element={<TestPage />} />
+                    <Route path="about" element={<AboutUs />} />
+                </Routes>
+            </BrowserRouter>
+        </ThemeProvider>
+    );
 };

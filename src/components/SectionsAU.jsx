@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import { Container } from '@mui/material';
 
-export default function SectionsAU({ title, cards }) {
+export default function SectionsAU({ title, cards, children }) {
   return (
     <Container sx={{ height: '100vh' }}>
       <Typography textAlign={'center'} variant="h6" gutterBottom>
@@ -26,6 +26,7 @@ export default function SectionsAU({ title, cards }) {
           </Card>
         ))}
       </Grid>
+      <Container sx={{ margin: '0 auto ' }}>{children}</Container>
     </Container>
   );
 }

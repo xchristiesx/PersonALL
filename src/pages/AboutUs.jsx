@@ -8,6 +8,7 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import SectionsAU from '../components/SectionsAU.jsx';
+import { Container } from '@mui/material';
 
 export const AboutUs = () => {
   return (
@@ -93,7 +94,12 @@ export const AboutUs = () => {
               'Sdílejte své příběhy nebo najděte podporu ve sdílení příběhů ostatních. Každý příběh má sílu změnit perspektivu.',
           },
         ]}
-      ></SectionsAU>
+      >
+        <Typography textAlign={'center'} variant="body1">
+          Připojte se k nám na cestě ke sdílení lásky, porozumění a vytváření
+          inkluzivního prostředí pro všechny. Společně můžeme tvořit změnu!
+        </Typography>
+      </SectionsAU>
 
       <SectionsAU
         title={
@@ -120,7 +126,26 @@ export const AboutUs = () => {
               'Vyplnění testu je naprosto dobrovolné. Kdykoliv v průběhu vyplňování se můžete rozhodnout nepokračovat.',
           },
         ]}
-      ></SectionsAU>
+      >
+        <Container
+          id="dfgjh"
+          sx={{ margin: '0 auto', display: 'flex', justifyContent: 'center' }}
+        >
+          <FormGroup alignItems="center">
+            <FormControlLabel
+              required
+              control={<Checkbox color="info" />}
+              label={
+                <>
+                  Prohlašuji, že jsem si přečetl/a výše uvedené informace
+                  souhlasím s nimi.
+                  <a href="terms"> Zásady ochrany osobních údajů</a>
+                </>
+              }
+            />
+          </FormGroup>
+        </Container>
+      </SectionsAU>
     </GenericPage>
   );
 };

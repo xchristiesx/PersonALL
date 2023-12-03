@@ -5,17 +5,20 @@ import { theme } from '/styles/theme.js';
 import { HomePage } from './pages/HomePage.jsx';
 import { TestPage } from './pages/Test.jsx';
 import { AboutUs } from './pages/AboutUs.jsx';
+import { Terms } from './pages/Terms.jsx';
 
 export const App = () => {
-    return (
-        <ThemeProvider theme={theme}>
-            <BrowserRouter>
-                <Routes>
-                    <Route path={'/'} element={<HomePage />} />
-                    <Route path="test" element={<TestPage />} />
-                    <Route path="about" element={<AboutUs />} />
-                </Routes>
-            </BrowserRouter>
-        </ThemeProvider>
-    );
+  return (
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Routes>
+          <Route path={'/'} element={<HomePage />} />
+          <Route path="test" element={<TestPage />} />
+          <Route path="about" element={<AboutUs />} />
+          <Route path="terms" element={<Terms />} />
+          {/*<Route path="*" element={<NoMatch />} />*/}
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
+  );
 };

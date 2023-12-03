@@ -50,7 +50,7 @@ export default function Conditions({ title, cards, children }) {
             alignItems: 'center',
           }}
         >
-          <FormGroup alignItems="center">
+          <FormGroup>
             <FormControlLabel
               required
               control={

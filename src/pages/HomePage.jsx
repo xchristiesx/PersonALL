@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { GenericPage } from '../components/GenericPage.jsx';
 import { useNavigate } from 'react-router-dom';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
@@ -26,9 +27,8 @@ export const HomePage = () => {
             akceptován a oceněn a doufáme, že i skutečně inklusivní společnost.
           </i>
         </Typography>
-
         <Button
-          onClick={() => navigate('conditions')}
+          onClick={() => navigate('/conditions')}
           sx={{
             marginTop: '10rem',
           }}
@@ -38,7 +38,6 @@ export const HomePage = () => {
         >
           Potřebuji pomoc
         </Button>
-        
       </Grid>
     </GenericPage>
   );

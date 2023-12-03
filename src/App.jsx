@@ -7,6 +7,8 @@ import { TestPage } from './pages/Test.jsx';
 import { AboutUs } from './pages/AboutUs.jsx';
 import { Terms } from './pages/Terms.jsx';
 import Conditions from './pages/Conditions.jsx';
+import {ResultPage} from "./pages/ResultPage.jsx";
+
 
 export const App = () => {
   return (
@@ -18,6 +20,7 @@ export const App = () => {
           <Route path="about" element={<AboutUs />} />
           <Route path="terms" element={<Terms />} />
           <Route path="conditions" element={<Conditions />} />
+          <Route path="result" element={<ResultPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

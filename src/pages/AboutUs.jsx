@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { GenericPage } from '../components/GenericPage.jsx';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
@@ -7,6 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import SectionsAU from '../components/SectionsAU.jsx';
 
 export const AboutUs = () => {
   return (
@@ -40,201 +41,86 @@ export const AboutUs = () => {
         </Typography>
 
         <Typography variant="h6" gutterBottom>
-        PersonALL je váš společník na cestě k inkluzivitě a pochopení.
+          PersonALL je váš společník na cestě k inkluzivitě a pochopení.
         </Typography>
       </Grid>
 
-      <Typography variant="h6" gutterBottom> Naše cíle: </Typography>
-      <Grid container spacing={3}>
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="obrázek inklusivity"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Inklusivita
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Budujeme prostředí bez předsudků, kde každý má možnost být slyšen a oceněn. Chceme podporovat dialog o rozmanitosti a vzájemném respektu.
-            </Typography>
-          </CardContent>
-        </Grid>
+      <SectionsAU
+        title={'Naše cíle:'}
+        cards={[
+          {
+            title: 'Inclusivita',
+            img: 'img/inclusivita.jpg',
+            content:
+              'Budujeme prostředí bez předsudků, kde každý má možnost být slyšen a oceněn. Chceme podporovat dialog o rozmanitosti a vzájemném respektu.',
+          },
+          {
+            title: 'Podpora',
+            img: 'img/podpora.jpg',
+            content:
+              'Poskytujeme zdroje a prostor pro ty, kteří hledají podporu v situacích spojených s vyčleněním. Máme tu pro vás.',
+          },
 
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="obrázek podpory"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Podpora
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Poskytujeme zdroje a prostor pro ty, kteří hledají podporu v
-              situacích spojených s vyčleněním. Máme tu pro vás.
-            </Typography>
-          </CardContent>
-        </Grid>
+          {
+            title: 'Vzdělávání',
+            img: 'img/vzdelavani.jpg',
+            content:
+              'Rozšiřujeme povědomí o inkluzivitě a bojujeme proti stereotypům prostřednictvím osvětových iniciativ a sdílení příběhů.',
+          },
+        ]}
+      ></SectionsAU>
 
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="obrázek vzdělávání"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Vzdělávání
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Rozšiřujeme povědomí o inkluzivitě a bojujeme proti stereotypům
-              prostřednictvím osvětových iniciativ a sdílení příběhů.
-            </Typography>
-          </CardContent>
-        </Grid>
-      </Grid>
-    
-      <Typography variant="h6" gutterBottom> Jak se můžete připojit: </Typography>
-      <Grid container spacing={3}>
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Komunita
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Přidejte se k nám a najděte spojení s lidmi, kteří sdílejí vaše hodnoty a zkušenosti.
-            </Typography>
-          </CardContent>
-        </Grid>
+      <SectionsAU
+        title={'Jak se můžete připojit:'}
+        cards={[
+          {
+            title: 'Komunita',
+            img: 'img/komunita.jpg',
+            content:
+              'Přidejte se k nám a najděte spojení s lidmi, kteří sdílejí vaše hodnoty a zkušenosti.',
+          },
+          {
+            title: 'Zdroje',
+            img: 'img/zdroje.jpg',
+            content:
+              'Pokud byste chtěli přispět svým časem, financemi nebo vědomostmi, ozvěte se nám. Budeme rádi!',
+          },
 
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"/>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Zdroje
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Pokud byste chtěli přispět svým časem, financemi nebo vědomostmi, ozvěte se nám. Budeme rádi!
-            </Typography>
-          </CardContent>
-        </Grid>
+          {
+            title: 'Příběhy',
+            img: 'img/vzdelavani.jpg',
+            content:
+              'Sdílejte své příběhy nebo najděte podporu ve sdílení příběhů ostatních. Každý příběh má sílu změnit perspektivu.',
+          },
+        ]}
+      ></SectionsAU>
 
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"/>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Příběhy
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Sdílejte své příběhy nebo najděte podporu ve sdílení příběhů ostatních. Každý příběh má sílu změnit perspektivu.
-            </Typography>
-          </CardContent>
-        </Grid>
-      </Grid>
+      <SectionsAU
+        title={
+          'Vyplňte krátký test pro lepší identifikaci situace, ve které se nacházíte a nalezení ideální rady. '
+        }
+        cards={[
+          {
+            title: 'Bezpečný',
+            img: 'img/bezpecny.jpg',
+            content:
+              'Vyplnění testu je naprosto anonymní. Potřebujeme ale Anonymizovaná data slouží pouze k  průzkumu míry pocitu inklusivity v ČR.',
+          },
+          {
+            title: 'Anonymní',
+            img: 'img/anonymni.jpg',
+            content:
+              'Vyplnění testu zabere pouze chvíli a nepřináší s sebou žádné nepříjemné stavy či nebezpečí.',
+          },
 
-      <Typography variant="h6" gutterBottom>
-        Vyplňte krátký test pro lepší identifikaci situace, ve které se nacházíte a nalezení ideální rady. 
-        </Typography>
-      <Grid container spacing={3}>
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Bezpečný
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Vyplnění testu je naprosto anonymní.
-            Anonymizovaná data slouží pouze k  průzkumu míry pocitu inklusivity v ČR.
-            </Typography>
-          </CardContent>
-        </Grid>
-
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"/>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Anonymní
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Vyplnění testu zabere pouze chvíli a nepřináší s sebou žádné nepříjemné stavy či nebezpečí.
-            </Typography>
-          </CardContent>
-        </Grid>
-
-        <Grid md={4}>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"/>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Dobrovolný
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Vyplnění testu je naprosto dobrovolné. Kdykoliv v průběhu vyplňování se můžete rozhodnout nepokračovat.
-            </Typography>
-          </CardContent>
-        </Grid>
-      </Grid>
-
-{/*      export default function CheckboxLabels() {*/}
-{/*  const [isChecked1, setIsChecked1] = useState(false);*/}
-{/*  const [isChecked2, setIsChecked2] = useState(false);*/}
-
-{/*  return (*/}
-{/*    <Grid container md={4}>*/}
-{/*      <FormGroup id="labels">*/}
-{/*        <FormControlLabel*/}
-{/*          control={<Checkbox id="label1" name="label1" defaultChecked={isChecked1} />}*/}
-{/*          label={*/}
-{/*            <Typography>*/}
-{/*              Prohlašuji, že jsem si přečetl/a výše uvedené informace a souhlasím s nimi.*/}
-{/*            </Typography>*/}
-{/*          }*/}
-{/*        />*/}
-{/*        <FormControlLabel*/}
-{/*          control={<Checkbox id="label2" name="label2" defaultChecked={isChecked2} />}*/}
-{/*          label={*/}
-{/*            <Typography>*/}
-{/*              Spuštěním testu souhlasím se zpracováváním dat dle{' '}*/}
-{/*              <a href="/zpracovani-dat">Zásad Ochrany Osobních Údajů</a>.*/}
-{/*            </Typography>*/}
-{/*          }*/}
-{/*        />*/}
-{/*      </FormGroup>*/}
-{/*    </Grid>*/}
-{/*  );*/}
-{/*}*/}
-  </GenericPage>
+          {
+            title: 'Dobrovolný',
+            img: 'img/dobrovolny.jpg',
+            content:
+              'Vyplnění testu je naprosto dobrovolné. Kdykoliv v průběhu vyplňování se můžete rozhodnout nepokračovat.',
+          },
+        ]}
+      ></SectionsAU>
+    </GenericPage>
   );
 };

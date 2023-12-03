@@ -1,9 +1,12 @@
 import { GenericPage } from '../../components/GenericPage.jsx';
+import { useNavigate } from 'react-router-dom';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 export const HomePage = () => {
+  const navigate = useNavigate();
+
   return (
     <GenericPage>
       <Grid
@@ -12,7 +15,7 @@ export const HomePage = () => {
         direction="column"
         justifyContent="center"
         alignItems="center"
-        style={{ minHeight: '70vh' }}
+        sx={{ height: 'calc(100vh - 64px)' }}
       >
         <Typography variant="h1" gutterBottom align='center'>
           “It's not personal it's PersonALL.”
@@ -24,6 +27,7 @@ export const HomePage = () => {
           </i>
         </Typography>
         <Button
+          onClick={() => navigate('test')}
           sx={{
             marginTop: '10rem',
           }}

@@ -14,11 +14,11 @@ export const AboutUs = () => {
   return (
     <GenericPage>
       <Grid
-        height={'100vh'}
+        height={'calc(100vh - 64px - 56px)'}
         container
         direction="column"
-        justifyContent="center"
         alignItems="center"
+        justifyContent="center"
         margin={7}
       >
         <Typography variant="h1" gutterBottom>

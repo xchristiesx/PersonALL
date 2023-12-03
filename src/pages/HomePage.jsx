@@ -26,8 +26,9 @@ export const HomePage = () => {
             akceptován a oceněn a doufáme, že i skutečně inklusivní společnost.
           </i>
         </Typography>
+
         <Button
-          onClick={() => navigate('test')}
+          onClick={() => navigate('conditions')}
           sx={{
             marginTop: '10rem',
           }}
@@ -37,6 +38,7 @@ export const HomePage = () => {
         >
           Potřebuji pomoc
         </Button>
+        
       </Grid>
     </GenericPage>
   );

@@ -8,11 +8,16 @@ import { Container } from '@mui/material';
 
 export default function SectionsAU({ title, cards, children }) {
   return (
-    <Container sx={{ height: '100vh' }}>
+    <Grid
+      height={'calc(100vh - 64px)'}
+      container
+      direction="column"
+      alignItems="center"
+      justifyContent="center"
+    >
       <Typography textAlign={'center'} variant="h6" gutterBottom>
         {title}
       </Typography>
-
       <Grid
         sx={{ margin: '0 2rem ' }}
         alignItems={'center'}
@@ -27,6 +32,6 @@ export default function SectionsAU({ title, cards, children }) {
         ))}
       </Grid>
       <Container sx={{ margin: '0 auto ' }}>{children}</Container>
-    </Container>
+    </Grid>
   );
 }

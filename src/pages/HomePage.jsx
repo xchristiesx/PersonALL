@@ -1,4 +1,4 @@
-import { GenericPage } from '../../components/GenericPage.jsx';
+import { GenericPage } from '../components/GenericPage.jsx';
 import { useNavigate } from 'react-router-dom';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Typography from '@mui/material/Typography';

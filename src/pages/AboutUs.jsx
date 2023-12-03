@@ -1,4 +1,5 @@
-import { GenericPage } from '../../components/GenericPage.jsx';
+import React from "react";
+import { GenericPage } from '../components/GenericPage.jsx';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
@@ -6,9 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Typography from '@mui/material/Typography';
-import React, { useState } from "react";
-import { Grid, FormGroup, FormControlLabel, Checkbox } from "react-bootstrap";
 
 export const AboutUs = () => {
   return (
@@ -209,35 +207,34 @@ export const AboutUs = () => {
         </Grid>
       </Grid>
 
+{/*      export default function CheckboxLabels() {*/}
+{/*  const [isChecked1, setIsChecked1] = useState(false);*/}
+{/*  const [isChecked2, setIsChecked2] = useState(false);*/}
 
-      export default function CheckboxLabels() {
-  const [isChecked1, setIsChecked1] = useState(false);
-  const [isChecked2, setIsChecked2] = useState(false);
-
-  return (
-    <Grid container md={4}>
-      <FormGroup id="labels">
-        <FormControlLabel
-          control={<Checkbox id="label1" name="label1" defaultChecked={isChecked1} />}
-          label={
-            <Typography>
-              Prohlašuji, že jsem si přečetl/a výše uvedené informace a souhlasím s nimi.
-            </Typography>
-          }
-        />
-        <FormControlLabel
-          control={<Checkbox id="label2" name="label2" defaultChecked={isChecked2} />}
-          label={
-            <Typography>
-              Spuštěním testu souhlasím se zpracováváním dat dle{' '}
-              <a href="/zpracovani-dat">Zásad Ochrany Osobních Údajů</a>.
-            </Typography>
-          }
-        />
-      </FormGroup>
-    </Grid>
-  );
-}
+{/*  return (*/}
+{/*    <Grid container md={4}>*/}
+{/*      <FormGroup id="labels">*/}
+{/*        <FormControlLabel*/}
+{/*          control={<Checkbox id="label1" name="label1" defaultChecked={isChecked1} />}*/}
+{/*          label={*/}
+{/*            <Typography>*/}
+{/*              Prohlašuji, že jsem si přečetl/a výše uvedené informace a souhlasím s nimi.*/}
+{/*            </Typography>*/}
+{/*          }*/}
+{/*        />*/}
+{/*        <FormControlLabel*/}
+{/*          control={<Checkbox id="label2" name="label2" defaultChecked={isChecked2} />}*/}
+{/*          label={*/}
+{/*            <Typography>*/}
+{/*              Spuštěním testu souhlasím se zpracováváním dat dle{' '}*/}
+{/*              <a href="/zpracovani-dat">Zásad Ochrany Osobních Údajů</a>.*/}
+{/*            </Typography>*/}
+{/*          }*/}
+{/*        />*/}
+{/*      </FormGroup>*/}
+{/*    </Grid>*/}
+{/*  );*/}
+{/*}*/}
   </GenericPage>
   );
 };

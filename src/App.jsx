@@ -2,9 +2,9 @@ import * as React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '/styles/theme.js';
-import { HomePage } from './pages/HomePage/index.jsx';
+import { HomePage } from './pages/HomePage.jsx';
 import { TestPage } from './pages/Test.jsx';
-import { AboutUs } from './pages/Onas/index.jsx';
+import { AboutUs } from './pages/AboutUs.jsx';
 
 export const App = () => {
   return (

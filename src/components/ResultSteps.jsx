@@ -10,7 +10,7 @@ import { ChatBubbleOvalLeftIcon } from '@heroicons/react/24/outline';
 export const ResultSteps = ({ steps }) => {
     return (
         <div style={{ width: '70%', margin: 'auto', padding: '20px' }}>
-            <Typography variant="h4" component='div' marginBottom='1.5rem' marginTop='4rem' align='center'>
+            <Typography variant="h4" component='div' marginBottom='1.5rem' marginTop='4rem' align='center' style={{ userSelect: 'none' }}>
                 <span>Kroky, které můžete podniknout:</span>
             </Typography>
             {steps.map(({ title, desc }, index) => (
@@ -26,7 +26,7 @@ export const ResultSteps = ({ steps }) => {
                                 primary={
                                     <React.Fragment>
                                         <Typography
-                                            sx={{ display: 'inline' }}
+                                            sx={{ display: 'inline', userSelect: "none" }}
                                             component="div"
                                             variant="body2"
                                             fontSize="1.05rem"
@@ -39,7 +39,7 @@ export const ResultSteps = ({ steps }) => {
                                 secondary={
                                     <React.Fragment>
                                         <Typography
-                                            sx={{ display: 'inline' }}
+                                            sx={{ display: 'inline' ,textAlign: "justify", userSelect: 'none' }}
                                             component="div"
                                             variant="body2"
                                             fontSize="1rem"

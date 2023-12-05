@@ -28,6 +28,7 @@ export default function SectionsAU({ title, cards, children }) {
         alignItems={'center'}
         justifyContent={'space-around'}
         container
+        textAlign={'justify'}
       >
         {cards.map(({ title, img, content }) => (
           <Card key={title} image={img} title={title}>

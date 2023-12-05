@@ -28,7 +28,7 @@ export const AboutUs = () => {
           O nás
         </Typography>
 
-        <Typography variant="body1" gutterBottom>
+        <Typography variant="body1" gutterBottom  sx={{ display: 'inline' ,textAlign: "justify", userSelect: 'none' }}>
           Všichni si zasloužíme být součástí společnosti a cítit se v ní vítáni
           a respektováni. Bohužel to tak vždy není. Existuje mnoho lidí, kteří
           se mohou cítit vyčleněni ze společnosti z důvodu svého původu, rasy,
@@ -132,7 +132,7 @@ export const AboutUs = () => {
         ]}
       >
         <Container
-          sx={{ margin: '0 auto', display: 'flex', justifyContent: 'center' }}
+          sx={{ margin: '0 auto', display: 'flex', justifyContent: 'center', textAlign: 'justify' }}
         >
           <Button
             onClick={() => navigate('/conditions')}

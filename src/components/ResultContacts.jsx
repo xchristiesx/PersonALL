@@ -10,7 +10,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 export const ResultContacts = () => {
     return (
         <>
-            <Typography variant="h4" component='div' marginBottom='1rem' marginTop='5rem' align='center'>
+            <Typography variant="h4" component='div' marginBottom='1rem' marginTop='5rem' align='center' style={{ userSelect: 'none' }}>
                 <span>Kam dál?</span>
             </Typography>
             <ThemeProvider theme={{palette: {primary: {main: '#fefae0'},},}}>
@@ -73,7 +73,9 @@ export const ResultContacts = () => {
                                         </Typography>
                                         <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                                             <a href="https://linkaztracenedite.cz/"
-                                               sx={{marginLeft: '5px', color: 'primary'}}>
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               sx={{ marginLeft: '5px', color: 'primary' }}>
                                                 linkaztracenedite.cz
                                             </a>
                                         </Box>
@@ -118,7 +120,9 @@ export const ResultContacts = () => {
                                         </Typography>
                                         <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                                             <a href="https://www.linkabezpeci.cz/"
-                                               sx={{marginLeft: '5px', color: 'primary'}}>
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               sx={{ marginLeft: '5px', color: 'primary' }}>
                                                 linkabezpeci.cz
                                             </a>
                                         </Box>
@@ -163,7 +167,9 @@ export const ResultContacts = () => {
                                         </Typography>
                                         <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                                             <a href="https://linkapsychickepomoci.cz/"
-                                               sx={{marginLeft: '5px', color: 'primary'}}>
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               sx={{ marginLeft: '5px', color: 'primary' }}>
                                                 linkapsychickepomoci.cz
                                             </a>
                                         </Box>

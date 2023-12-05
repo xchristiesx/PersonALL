@@ -24,13 +24,13 @@ export const HomePage = () => {
         <Typography variant="subtitle1" gutterBottom>
           <i>
             Společně se snažíme budovat prostředí, kde se každý může cítit
-            akceptován a oceněn a doufáme, že i skutečně inklusivní společnost.
+            akceptován a oceněn a doufáme, že i skutečně inkluzivní společnost.
           </i>
         </Typography>
         <Button
           onClick={() => navigate('/conditions')}
           sx={{
-            marginTop: '10rem',
+            marginTop: '3rem',
           }}
           variant="contained"
           color="secondary"

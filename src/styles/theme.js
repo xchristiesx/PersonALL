@@ -58,6 +58,30 @@ export const theme = createTheme({
                     boxShadow: "none"
                 }
             }
+        },
+        MuiAvatar: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: "transparent",
+                    width: "1.2rem",
+                    height: "1.2rem"
+                }
+            }
+        },
+        MuiListItemAvatar: {
+            styleOverrides: {
+                root: {
+                    minWidth: "2.5rem"
+                }
+            }
+        },
+        MuiListItem: {
+            styleOverrides: {
+                root: {
+                    paddingTop: "1.7rem",
+                    paddingBottom: "1.7rem"
+                }
+            }
         }
     }
 

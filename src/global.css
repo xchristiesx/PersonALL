@@ -4,4 +4,6 @@ body {
 
 #app {
   background-color: #fefae0;
+  max-height: 100vh;
+  overflow-x: scroll;
 }

@@ -21,7 +21,7 @@ export const Terms = () => {
             boxShadow: '5px 5px grey',
           }}
         >
-          <Typography variant="h1" gutterBottom>
+          <Typography variant="h2" gutterBottom>
             Zásady ochrany osobních údajů
           </Typography>
 

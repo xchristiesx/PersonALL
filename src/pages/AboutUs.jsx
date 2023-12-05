@@ -1,6 +1,5 @@
 import React from 'react';
 import { GenericPage } from '../components/GenericPage.jsx';
-import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -11,43 +10,62 @@ import SectionsAU from '../components/SectionsAU.jsx';
 import { Container } from '@mui/material';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
+import { Box } from '@mui/material';
+import { ThemeProvider } from '@mui/material/styles';
 
 export const AboutUs = () => {
   const navigate = useNavigate();
   return (
     <GenericPage>
-      <Grid
-        height={'calc(100vh - 64px - 56px)'}
-        container
-        direction="column"
-        alignItems="center"
-        justifyContent="center"
-        margin={7}
-      >
-        <Typography variant="h1" gutterBottom>
-          O nás
-        </Typography>
+      <ThemeProvider theme={{ palette: { primary: { main: '#ffe8ca' } } }}>
+        <Box
+          sx={{
+            width: '80%',
+            margin: 'auto',
+            borderRadius: 8,
+            bgcolor: 'primary.main',
+            justifyContent: 'center',
+            alignItems: 'center',
+            textAlign: 'center',
+            padding: '5rem',
+            boxShadow: '5px 5px grey',
+          }}
+        >
+          <Typography variant="h1" gutterBottom>
+            O nás
+          </Typography>
 
-        <Typography variant="body1" gutterBottom  sx={{ display: 'inline' ,textAlign: "justify", userSelect: 'none' }}>
-          Všichni si zasloužíme být součástí společnosti a cítit se v ní vítáni
-          a respektováni. Bohužel to tak vždy není. Existuje mnoho lidí, kteří
-          se mohou cítit vyčleněni ze společnosti z důvodu svého původu, rasy,
-          náboženství, sexuální orientace nebo jiného faktoru. Našim cílem je
-          toto změnit a každému jedinci, který se občas cítí, že nezapadá do
-          společnosti, ve které se často nachází, ať už se jedná o školu, práci
-          či volný čas, podali pomocnou ruku a prvních pár rad, jak se s tím
-          lépe vypořádat. Jak začít svou vlastní cestu k lepšímu pocitu
-          začlenění. Snažíme se vytvářet komunitu, kde je každý hlas důležitý, a
-          kde se setkávají různorodé příběhy, názory a zkušenosti. Věříme, že
-          můžeme pomoci vytvořit společnost, ve které se každý cítí vítán a
-          respektován. Jsme odhodláni pracovat na dosažení těchto cílů a
-          vytvářet svět, ve kterém je inkluze normou.
-        </Typography>
+          <Typography
+            variant="body1"
+            gutterBottom
+            sx={{ display: 'inline', textAlign: 'justify', userSelect: 'none' }}
+          >
+            Všichni si zasloužíme být součástí společnosti a cítit se v ní
+            vítáni a respektováni. Bohužel to tak vždy není. Existuje mnoho
+            lidí, kteří se mohou cítit vyčleněni ze společnosti z důvodu svého
+            původu, rasy, náboženství, sexuální orientace nebo jiného faktoru.
+            Našim cílem je toto změnit a každému jedinci, který se občas cítí,
+            že nezapadá do společnosti, ve které se často nachází, ať už se
+            jedná o školu, práci či volný čas, podali pomocnou ruku a prvních
+            pár rad, jak se s tím lépe vypořádat. Jak začít svou vlastní cestu k
+            lepšímu pocitu začlenění. Snažíme se vytvářet komunitu, kde je každý
+            hlas důležitý, a kde se setkávají různorodé příběhy, názory a
+            zkušenosti. Věříme, že můžeme pomoci vytvořit společnost, ve které
+            se každý cítí vítán a respektován. Jsme odhodláni pracovat na
+            dosažení těchto cílů a vytvářet svět, ve kterém je inkluze normou.
+          </Typography>
 
-        <Typography variant="h6" gutterBottom>
-          PersonALL je váš společník na cestě k inkluzivitě a pochopení.
-        </Typography>
-      </Grid>
+          <Typography
+            variant="h6"
+            gutterBottom
+            sx={{
+              padding: '4rem',
+            }}
+          >
+            PersonALL je váš společník na cestě k inkluzivitě a pochopení.
+          </Typography>
+        </Box>
+      </ThemeProvider>
 
       <SectionsAU
         title={'Naše cíle:'}
@@ -72,8 +90,7 @@ export const AboutUs = () => {
               'Rozšiřujeme povědomí o inkluzivitě a bojujeme proti stereotypům prostřednictvím osvětových iniciativ a sdílení příběhů.',
           },
         ]}
-      >
-      </SectionsAU>
+      ></SectionsAU>
 
       <SectionsAU
         title={'Jak se můžete připojit:'}
@@ -132,7 +149,12 @@ export const AboutUs = () => {
         ]}
       >
         <Container
-          sx={{ margin: '0 auto', display: 'flex', justifyContent: 'center', textAlign: 'justify' }}
+          sx={{
+            margin: '0 auto',
+            display: 'flex',
+            justifyContent: 'center',
+            textAlign: 'justify',
+          }}
         >
           <Button
             onClick={() => navigate('/conditions')}

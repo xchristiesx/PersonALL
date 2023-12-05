@@ -10,9 +10,9 @@ export default function Card({ title, image, children }) {
       sx={{
         height: '100%',
         width: 'maxContent',
-        backgroundColor: '#b7B7B7',
+        backgroundColor: 'white',
         borderRadius: '16px',
-        boxShadow: '5px 5px white',
+        boxShadow: '5px 5px grey',
       }}
       md={3}
     >

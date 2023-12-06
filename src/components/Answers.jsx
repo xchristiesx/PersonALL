@@ -3,7 +3,7 @@ import Stack from '@mui/material/Stack';
 import {AnswerButton} from "./AnswerButton.jsx";
 
 export const Answers = (props) => {
-    return(
+    return (
         <Stack direction="row" spacing={2}>
             {props.answers.map((answer) =>
                 <AnswerButton

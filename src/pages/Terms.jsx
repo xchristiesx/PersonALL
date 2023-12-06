@@ -3,8 +3,10 @@ import { GenericPage } from '../components/GenericPage.jsx';
 import { Container, Typography } from '@mui/material';
 import { Box } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
+import { useTheme } from '@mui/system';
 
 export const Terms = () => {
+  const theme = useTheme();
   return (
     <GenericPage>
       <ThemeProvider theme={{ palette: { primary: { main: '#ffe8ca' } } }}>
@@ -17,15 +19,30 @@ export const Terms = () => {
             justifyContent: 'center',
             alignItems: 'center',
             textAlign: 'justify',
-            padding: '2rem',
-            boxShadow: '5px 5px grey',
+            boxShadow: '0 0 5px #c9c4a9',
+            userSelect: 'none',
+            [theme.breakpoints.up('sm')]: {
+              padding: '2rem',
+            },
+            [theme.breakpoints.down('sm')]: {
+              padding: '0.5rem',
+            },
+            [theme.breakpoints.down('xs')]: {
+              padding: '0.5rem',
+            },
+            [theme.breakpoints.up('md')]: {
+              padding: '2rem',
+            },
+            [theme.breakpoints.up('lg')]: {
+              padding: '5rem',
+            },
           }}
         >
           <Typography variant="h2" gutterBottom>
             Zásady ochrany osobních údajů
           </Typography>
 
-          <Typography variant="body1" gutterBottom>
+          <Typography variant="body1" gutterBottom >
             <h4>I. základní ustanovení </h4>
             <i>
               Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského

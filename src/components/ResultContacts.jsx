@@ -10,7 +10,8 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 export const ResultContacts = () => {
     return (
         <>
-            <Typography variant="h4" component='div' marginBottom='1rem' marginTop='5rem' align='center' style={{ userSelect: 'none' }}>
+            <Typography variant="h4" component='div' marginBottom='1rem' marginTop='5rem' align='center'
+                        style={{userSelect: 'none'}}>
                 <span>Kam dál?</span>
             </Typography>
             <ThemeProvider theme={{palette: {primary: {main: '#fefae0'},},}}>
@@ -75,7 +76,7 @@ export const ResultContacts = () => {
                                             <a href="https://linkaztracenedite.cz/"
                                                target="_blank"
                                                rel="noopener noreferrer"
-                                               sx={{ marginLeft: '5px', color: 'primary' }}>
+                                               sx={{marginLeft: '5px', color: 'primary'}}>
                                                 linkaztracenedite.cz
                                             </a>
                                         </Box>
@@ -122,7 +123,7 @@ export const ResultContacts = () => {
                                             <a href="https://www.linkabezpeci.cz/"
                                                target="_blank"
                                                rel="noopener noreferrer"
-                                               sx={{ marginLeft: '5px', color: 'primary' }}>
+                                               sx={{marginLeft: '5px', color: 'primary'}}>
                                                 linkabezpeci.cz
                                             </a>
                                         </Box>
@@ -169,7 +170,7 @@ export const ResultContacts = () => {
                                             <a href="https://linkapsychickepomoci.cz/"
                                                target="_blank"
                                                rel="noopener noreferrer"
-                                               sx={{ marginLeft: '5px', color: 'primary' }}>
+                                               sx={{marginLeft: '5px', color: 'primary'}}>
                                                 linkapsychickepomoci.cz
                                             </a>
                                         </Box>

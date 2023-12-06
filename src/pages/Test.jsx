@@ -8,6 +8,9 @@ import {ArrowBack} from "@mui/icons-material";
 import questions from "../resources/questions.json"
 import {useState} from "react";
 import {createSearchParams, useNavigate} from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export const TestPage = () => {
     const navigate = useNavigate();
@@ -18,9 +21,9 @@ export const TestPage = () => {
     const numberOfQuestions = questions.length - 1;
 
     const goToResults = (params) =>  navigate({
-            pathname: '/result',
-            search: createSearchParams(params).toString(),
-        });
+        pathname: '/result',
+        search: createSearchParams(params).toString(),
+    });
 
     const handleLastAnswer = () => {
         const flattenUserAnswers = userAnswers.flat()
@@ -63,10 +66,6 @@ export const TestPage = () => {
             console.log('Choose between ', leadOne[0], ' and ', leadTwo[0])
             params.additional_category = leadTwo[0] === 'domestic_violence' ? `${sex}.domestic_violence` : leadTwo[0]
         }
-        // TODO remove the else
-        else {
-            console.log('Read about ', leadOne[0])
-        }
 
         goToResults(params);
     }
@@ -103,30 +102,31 @@ export const TestPage = () => {
             setQuestionNumber(prevState=> prevState - 1)
     }
 
-    return (<GenericPage>
-        <Grid container spacing={1} height='calc(100vh - 64px)'>
-            <Grid md={1} mdOffset={2} display="flex" justifyContent="start" alignItems="left">
-                <Button
-                    sx={{
-                  height: 'max-content'
-                    }}
-                    variant="text"
-                    color="secondary"
-                    size={'large'}
-                    startIcon={<ArrowBack />}
-                    disabled={questionNumber === 0}
-                    onClick={handleBackClick}
-                >
-                    Zpět
-                </Button>
-            </Grid>
-            <Grid md={8} mdOffset={2} display="flex" justifyContent="center" alignItems="center">
+    return (
+        <GenericPage>
+            <Grid container spacing={1} height='calc(100vh - 64px)'>
+                <Grid md={1} mdOffset={2} display="flex" justifyContent="start" alignItems="left">
+                    <Button
+                        sx={{
+                            height: 'max-content'
+                        }}
+                        variant="text"
+                        color="secondary"
+                        size={'large'}
+                        startIcon={<ArrowBack />}
+                        disabled={questionNumber === 0}
+                        onClick={handleBackClick}
+                    >
+                        Zpět
+                    </Button>
+                </Grid>
+                <Grid md={8} mdOffset={2} display="flex" justifyContent="center" alignItems="center">
                     <Question question={questions[questionNumber].question}/>
+                </Grid>
+                <Grid md={8} mdOffset={2} display="flex" justifyContent="center" alignItems="center">
+                    <Answers answers={questions[questionNumber].answers} handleAnswerClick={handleAnswerClick}/>
+                </Grid>
             </Grid>
-            <Grid md={8} mdOffset={2} display="flex" justifyContent="center" alignItems="center">
-                <Answers answers={questions[questionNumber].answers} handleAnswerClick={handleAnswerClick}/>
-            </Grid>
-        </Grid>
-    </GenericPage>)
+        </GenericPage>
+    )
 }
-

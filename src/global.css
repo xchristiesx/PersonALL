@@ -3,7 +3,7 @@ body {
 }
 
 #app {
-  background-color: #fefae0;
-  max-height: 100vh;
+  background: #fefae0 no-repeat;
   overflow-x: scroll;
 }
+

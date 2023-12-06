@@ -24,7 +24,7 @@ export default function Conditions({ title, cards, children }) {
             title: 'Bezpečný',
             img: 'img/bezpecny.jpg',
             content:
-              'Vyplnění testu je naprosto anonymní. Potřebujeme ale Anonymizovaná data slouží pouze k  průzkumu míry pocitu inklusivity v ČR.',
+              'Vyplnění testu je zcela anonymní. Potřebujeme ale Anonymizovaná data slouží pouze k  průzkumu míry pocitu inkluzivity v ČR.',
           },
           {
             title: 'Anonymní',
@@ -75,7 +75,7 @@ export default function Conditions({ title, cards, children }) {
             disabled={!isConditionsChecked}
             onClick={() => navigate('/test')}
             sx={{
-              marginTop: '10rem',
+              marginTop: '3rem',
               width: 'fit-content',
             }}
             variant="contained"

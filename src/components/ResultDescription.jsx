@@ -7,9 +7,20 @@ export const ResultDescription = ({descriptions}) => {
     return (
         <>
             <ThemeProvider theme={{palette: {primary: {main: '#ffe8ca'},},}}>
-                <Box sx={{width: '80%', margin: 'auto', borderRadius: 8, bgcolor: 'primary.main', justifyContent: 'center', alignItems: 'center',textAlign: "justify", padding: '2rem'}} >
+                <Box sx={{
+                    width: '80%',
+                    margin: 'auto',
+                    borderRadius: 8,
+                    bgcolor: 'primary.main',
+                    boxShadow: '0 0 5px #c9c4a9',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    textAlign: "justify",
+                    padding: '2rem'
+                }}>
                     {descriptions.map((desc) =>
-                        <Typography variant="body1" component="div" gutterBottom key={desc} sx={{ alignItems: 'center' , userSelect: 'none'}}>
+                        <Typography variant="body1" component="div" gutterBottom key={desc}
+                                    sx={{alignItems: 'center', userSelect: 'none'}}>
                             {desc}
                         </Typography>
                     )}

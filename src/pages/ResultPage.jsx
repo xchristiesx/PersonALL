@@ -5,7 +5,6 @@ import {ResultTitle} from "../components/ResultTitle.jsx";
 import {ResultDescription} from "../components/ResultDescription.jsx";
 import {ResultSteps} from "../components/ResultSteps.jsx";
 import {TestNotTaken} from "../components/TestNotTaken.jsx";
-import Typography from "@mui/material/Typography";
 import results from "../resources/results.json"
 import {ResultEndDescription} from "../components/ResultEndDescription.jsx";
 import {ResultContacts} from "../components/ResultContacts.jsx";

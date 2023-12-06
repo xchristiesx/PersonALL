@@ -32,13 +32,23 @@ export const theme = createTheme({
             cursor: 'default',
             userSelect: 'none',
         },
+        h4: {
+            fontFamily: "'Ubuntu', monospace",
+            cursor: 'default',
+            userSelect: 'none',
+        },
+        h5: {
+            fontFamily: "'Ubuntu', monospace",
+            cursor: 'default',
+            userSelect: 'none',
+        },
         h6: {
             fontFamily: "'Ubuntu', monospace",
-            cursor: 'pointer',
+            cursor: 'default',
             userSelect: 'none',
         },
         subtitle1: {
-            cursor: 'pointer',
+            cursor: 'default',
             userSelect: 'none',
         }
     },

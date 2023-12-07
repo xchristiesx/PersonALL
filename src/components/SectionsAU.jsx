@@ -23,4 +23,34 @@ export default function SectionsAU({title, cards, children}) {
             <Container sx={{margin: '2rem  auto'}}>{children}</Container>
         </>
     );
-}
+import { Container } from '@mui/material';
+import { Box } from '@mui/system';
+
+export default function SectionsAU({ title, cards, children }) {
+  return (
+    <>
+      <Typography
+        textAlign={'center'}
+        variant="h6"
+        gutterBottom
+      >
+        {title}
+      </Typography>
+      <Grid
+        spacing={3}
+        style={{ display: 'flex', flex: 1 }}
+        container
+        sx={{ margin: '0 20px' }}
+      >
+        {cards.map(({ title, img, alt, content }) => (
+          <Grid key={title} xs={12} sm={4}>
+            <Card image={img} title={title} alt={alt}>
+              {content}
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+      <Container sx={{ margin: '2rem  auto' }}>{children}</Container>
+    </>
+  );
+        }};

@@ -23,10 +23,6 @@ export default function SectionsAU({title, cards, children}) {
             <Container sx={{margin: '2rem  auto'}}>{children}</Container>
         </>
     );
-import { Container } from '@mui/material';
-import { Box } from '@mui/system';
-
-export default function SectionsAU({ title, cards, children }) {
   return (
     <>
       <Typography
@@ -53,4 +49,4 @@ export default function SectionsAU({ title, cards, children }) {
       <Container sx={{ margin: '2rem  auto' }}>{children}</Container>
     </>
   );
-        }};
+        };

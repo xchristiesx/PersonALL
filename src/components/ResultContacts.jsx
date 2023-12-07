@@ -38,7 +38,6 @@ export const ResultContacts = () => {
                             initialSlide={1} //depends on the number of swiperslides. considering we have only three, I manually entered index 1
                         >
                             <SwiperSlide>
-                                <ThemeProvider theme={{palette: {primary: {main: '#f5e1a4'},},}}>
                                     <Box sx={{
                                         width: '70%',
                                         margin: 'auto',
@@ -46,14 +45,15 @@ export const ResultContacts = () => {
                                         bgcolor: 'primary.main',
                                         justifyContent: 'center',
                                         alignItems: 'center',
-                                        padding: '2rem'
+                                        padding: '2rem',
+                                        backgroundColor: '#f5e1a4'
                                     }}>
                                         <Typography variant="h5" component="div" gutterBottom sx={{
                                             display: 'flex',
                                             alignItems: 'center',
                                             justifyContent: 'center',
                                             fontWeight: 'bold',
-                                            color: 'primary'
+                                            color: '3f5e1a4'
                                         }}>
                                             Linka pro rodinu a školu
                                         </Typography>
@@ -76,16 +76,14 @@ export const ResultContacts = () => {
                                             <a href="https://linkaztracenedite.cz/"
                                                target="_blank"
                                                rel="noopener noreferrer"
-                                               sx={{marginLeft: '5px', color: 'primary'}}>
+                                               style={{marginLeft: '5px', color: 'primary'}}>
                                                 linkaztracenedite.cz
                                             </a>
                                         </Box>
                                     </Box>
-                                </ThemeProvider>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                <ThemeProvider theme={{palette: {primary: {main: '#f5e1a4'},},}}>
                                     <Box sx={{
                                         width: '70%',
                                         margin: 'auto',
@@ -93,7 +91,8 @@ export const ResultContacts = () => {
                                         bgcolor: 'primary.main',
                                         justifyContent: 'center',
                                         alignItems: 'center',
-                                        padding: '2rem'
+                                        padding: '2rem',
+                                        backgroundColor: '#f5e1a4'
                                     }}>
                                         <Typography variant="h5" component="div" gutterBottom sx={{
                                             display: 'flex',
@@ -128,11 +127,9 @@ export const ResultContacts = () => {
                                             </a>
                                         </Box>
                                     </Box>
-                                </ThemeProvider>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                <ThemeProvider theme={{palette: {primary: {main: '#f5e1a4'},},}}>
                                     <Box sx={{
                                         width: '70%',
                                         margin: 'auto',
@@ -140,7 +137,8 @@ export const ResultContacts = () => {
                                         bgcolor: 'primary.main',
                                         justifyContent: 'center',
                                         alignItems: 'center',
-                                        padding: '2rem'
+                                        padding: '2rem',
+                                        backgroundColor: '#f5e1a4'
                                     }}>
                                         <Typography variant="h5" component="div" gutterBottom sx={{
                                             display: 'flex',
@@ -175,7 +173,6 @@ export const ResultContacts = () => {
                                             </a>
                                         </Box>
                                     </Box>
-                                </ThemeProvider>
                             </SwiperSlide>
                         </Swiper>
                     </Typography>

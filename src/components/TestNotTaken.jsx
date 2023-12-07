@@ -2,11 +2,12 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Button from "@mui/material/Button";
 import {useNavigate} from "react-router-dom";
+import {Container} from "@mui/material";
 
 export const TestNotTaken = () => {
     const navigate = useNavigate();
     return (
-        <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
             <Typography variant="h3" component="div" align='center' padding='1.5rem'>
                 Jejda!
             </Typography>
@@ -27,6 +28,6 @@ export const TestNotTaken = () => {
             >
                 Potřebuji pomoc
             </Button>
-        </div>
+        </Container>
     )
 }

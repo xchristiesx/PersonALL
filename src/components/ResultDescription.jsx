@@ -6,7 +6,6 @@ import {ThemeProvider} from "@mui/material/styles";
 export const ResultDescription = ({descriptions}) => {
     return (
         <>
-            <ThemeProvider theme={{palette: {primary: {main: '#ffe8ca'},},}}>
                 <Box sx={{
                     width: '80%',
                     margin: 'auto',
@@ -16,7 +15,8 @@ export const ResultDescription = ({descriptions}) => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: "justify",
-                    padding: '2rem'
+                    padding: '2rem',
+                    backgroundColor: '#ffe8ca'
                 }}>
                     {descriptions.map((desc) =>
                         <Typography variant="body1" component="div" gutterBottom key={desc}
@@ -25,7 +25,6 @@ export const ResultDescription = ({descriptions}) => {
                         </Typography>
                     )}
                 </Box>
-            </ThemeProvider>
         </>
     )
 }

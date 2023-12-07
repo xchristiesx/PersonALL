@@ -1,6 +1,6 @@
 import React from 'react';
 import { GenericPage } from '../components/GenericPage.jsx';
-import { Container, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import { Box } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { useTheme } from '@mui/system';

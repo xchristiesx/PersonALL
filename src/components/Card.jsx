@@ -12,7 +12,6 @@ export default function Card({title, image, children}) {
             component="img"
             height="140"
             image={image}
-            alt="green iguana"
         />
         <CardContent>
             <Typography

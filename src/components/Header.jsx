@@ -35,7 +35,7 @@ export default function Header() {
                     sx={{flexGrow: 1}}
                     onClick={redirectHome}
                 >
-                    <img width={24} src="https://placekitten.com/300/300" alt="logo"/>
+                    PersonALL
                 </Typography>
                 <div>
                     <IconButton

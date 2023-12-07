@@ -1,25 +1,18 @@
 import React from 'react';
 import {GenericPage} from '../components/GenericPage.jsx';
 import Typography from '@mui/material/Typography';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import SectionsAU from '../components/SectionsAU.jsx';
 import {Container} from '@mui/material';
 import Button from '@mui/material/Button';
 import {useNavigate} from 'react-router-dom';
 import {Box} from '@mui/material';
 import {ThemeProvider} from '@mui/material/styles';
-import Grid from '@mui/material/Unstable_Grid2';
 import {useTheme} from '@mui/system';
 
 export const AboutUs = () => {
     const theme = useTheme();
     const navigate = useNavigate();
     return (<GenericPage>
-            <ThemeProvider theme={{palette: {primary: {main: '#ffe8ca'}}}}>
                 <Box
                     sx={{
                         width: '80%',
@@ -31,6 +24,7 @@ export const AboutUs = () => {
                         textAlign: 'center',
                         boxShadow: '0 0 5px #c9c4a9',
                         marginBottom: '5rem',
+                        backgroundColor: '#ffe8ca',
                         [theme.breakpoints.up('sm')]: {
                             padding: '2rem',
                         },
@@ -73,7 +67,7 @@ export const AboutUs = () => {
                     </Typography>
 
                     <Typography
-                        variant="h6"
+                        variant="h5"
                         gutterBottom
                         sx={{
                             padding: '2rem'
@@ -82,7 +76,6 @@ export const AboutUs = () => {
                         PersonALL je váš společník na cestě k inkluzivitě a pochopení.
                     </Typography>
                 </Box>
-            </ThemeProvider>
 
             <SectionsAU
                 title={'Naše cíle:'}

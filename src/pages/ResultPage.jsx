@@ -18,10 +18,6 @@ export const ResultPage = () => {
         setResult(results[category])
     }, [searchParams]);
 
-
-    console.log(searchParams.get('category'));
-    console.log(searchParams.get('additional_category'));
-
     if (result)
         return <GenericPage>
             <ResultTitle title={result.title}/>

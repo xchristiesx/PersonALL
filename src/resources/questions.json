@@ -51,27 +51,27 @@
   },
   {
     "index": 4,
-    "question": "Věk do 18ti. Do 26. Do 30ti. 30-50. 50-65. 65 a více.",
+    "question": "Jaký je váš věk?",
     "answers": [
       {
         "leads": null,
-        "content": "do 18ti"
+        "content": "do 18"
       },
       {
         "leads": null,
-        "content": "Do 26"
+        "content": "19 - 24"
       },
       {
         "leads": null,
-        "content": "Do 30ti"
+        "content": "25 - 34"
       },
       {
         "leads": null,
-        "content": "30-50"
+        "content": "35 - 49"
       },
       {
         "leads": null,
-        "content": "50-65"
+        "content": "50 - 64"
       },
       {
         "leads": null,

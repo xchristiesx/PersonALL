@@ -14,9 +14,9 @@ export const ResultSteps = ({steps}) => {
                         style={{userSelect: 'none'}}>
                 <span>Kroky, které můžete podniknout:</span>
             </Typography>
-            {steps.map(({title, desc}, index) => (
-                <React.Fragment key={title}>
-                    <List sx={{width: '100%', bgcolor: 'transparent'}}>
+            <List sx={{width: '100%', bgcolor: 'transparent'}}>
+                {steps.map(({title, desc}, index) => (
+                    <React.Fragment key={index}>
                         <ListItem alignItems="center">
                             <ListItemAvatar>
                                 <Avatar>
@@ -25,37 +25,33 @@ export const ResultSteps = ({steps}) => {
                             </ListItemAvatar>
                             <ListItemText
                                 primary={
-                                    <React.Fragment>
-                                        <Typography
-                                            sx={{display: 'inline', userSelect: "none"}}
-                                            component="div"
-                                            variant="body2"
-                                            fontSize="1.05rem"
-                                            color="text.secondary"
-                                        >
-                                            {title}
-                                        </Typography>
-                                    </React.Fragment>
+                                    <Typography
+                                        sx={{userSelect: "none"}}
+                                        component="div"
+                                        variant="body2"
+                                        fontSize="1.05rem"
+                                        color="text.secondary"
+                                    >
+                                        {title}
+                                    </Typography>
                                 }
                                 secondary={
-                                    <React.Fragment>
-                                        <Typography
-                                            sx={{display: 'inline', textAlign: "justify", userSelect: 'none'}}
-                                            component="div"
-                                            variant="body2"
-                                            fontSize="1rem"
-                                            color="text.primary"
-                                        >
-                                            {desc}
-                                        </Typography>
-                                    </React.Fragment>
+                                    <Typography
+                                        sx={{textAlign: "justify", userSelect: 'none'}}
+                                        component="div"
+                                        variant="body2"
+                                        fontSize="1rem"
+                                        color="text.primary"
+                                    >
+                                        {desc}
+                                    </Typography>
                                 }
                             />
                         </ListItem>
-                    </List>
-                    {index < steps.length - 1 && <Divider/>}
-                </React.Fragment>
-            ))}
+                        {index < steps.length - 1 && <Divider/>}
+                    </React.Fragment>
+                ))}
+            </List>
         </div>
     );
 };

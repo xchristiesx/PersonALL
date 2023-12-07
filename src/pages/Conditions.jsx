@@ -2,15 +2,13 @@ import React from 'react';
 import SectionsAU from '../components/SectionsAU.jsx';
 import { GenericPage } from '../components/GenericPage.jsx';
 import { Container } from '@mui/material';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 
-export default function Conditions({ title, cards, children }) {
+export default function Conditions() {
   const [isConditionsChecked, setIsConditonsChecked] = React.useState(false);
   const navigate = useNavigate();
   return (
@@ -24,7 +22,7 @@ export default function Conditions({ title, cards, children }) {
             title: 'Bezpečný',
             img: 'img/bezpecny.jpg',
             content:
-              'Vyplnění testu je zcela anonymní. Potřebujeme ale Anonymizovaná data slouží pouze k  průzkumu míry pocitu inkluzivity v ČR.',
+              'Vyplnění testu je zcela anonymní. Anonymizovaná data slouží pouze k průzkumu míry pocitu inkluzivity v ČR.',
           },
           {
             title: 'Anonymní',

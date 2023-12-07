@@ -19,6 +19,7 @@ export const HomePage = () => {
                 justifyContent="center"
                 alignItems="center"
                 sx={{height: 'calc(100vh - 64px)'}}
+
             >
                 <Typography gutterBottom align='center'
                             sx={{
@@ -31,9 +32,10 @@ export const HomePage = () => {
                                 [theme.breakpoints.down('xs')]: {
                                     fontSize: '2rem',
                                 },
+                                userSelect: "none"
                             }}
                 >
-                    “It's not personal,
+                    {`“It's not personal,`}
                 </Typography>
                 <Typography gutterBottom align='center'
                             sx={{
@@ -46,6 +48,7 @@ export const HomePage = () => {
                                 [theme.breakpoints.down('xs')]: {
                                     fontSize: '2rem',
                                 },
+                                userSelect: "none"
                             }}
                 >
                     it's PersonALL.”

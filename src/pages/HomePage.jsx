@@ -1,9 +1,14 @@
 import React from 'react';
 import {GenericPage} from '../components/GenericPage.jsx';
 import {useNavigate} from 'react-router-dom';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import {useTheme} from '@mui/system';
+import Lottie from "lottie-react";
+import animationData from '../resources/Animation-homepage.json';
+
+
 
 export const HomePage = () => {
     const theme = useTheme();
@@ -20,7 +25,7 @@ export const HomePage = () => {
                 sx={{height: 'calc(100vh - 64px)'}}
 
             >
-                <Typography gutterBottom align='center'
+                <Typography gutterBottom align='center' margin={"7rem"}
                             sx={{
                                 [theme.breakpoints.up('sm')]: {
                                     fontSize: '4rem',
@@ -34,45 +39,25 @@ export const HomePage = () => {
                                 userSelect: "none"
                             }}
                 >
-                    {`“It's not personal,`}
+                    {`"It's not personall it's PersonALL.`}
                 </Typography>
-                <Typography gutterBottom align='center'
-                            sx={{
-                                [theme.breakpoints.up('sm')]: {
-                                    fontSize: '4rem',
-                                },
-                                [theme.breakpoints.down('sm')]: {
-                                    fontSize: '2.5rem',
-                                },
-                                [theme.breakpoints.down('xs')]: {
-                                    fontSize: '2rem',
-                                },
-                                userSelect: "none"
-                            }}
-                >
-                    it's PersonALL.”
-                </Typography>
-                <Typography variant="subtitle1" gutterBottom
-                        sx={{
-                            fontStyle: 'italic',
-                            padding: '0, 2em',
-                            [theme.breakpoints.up('sm')]: {
-                                margin: '2rem',
-                            },
-                            [theme.breakpoints.down('sm')]: {
-                                margin: '1rem',
-                            },
-                            [theme.breakpoints.down('xs')]: {
-                                margin: '1rem',
-                            },
-                            [theme.breakpoints.up('md')]: {
-                                margin: '2rem',
-                            },
-                        }}
-                >
-                    Společně se snažíme budovat prostředí, kde se každý může cítit
-                    akceptován a oceněn a doufáme, že i skutečně inkluzivní společnost.
-                </Typography>
+                <div>
+      <Lottie
+        animationData={animationData}
+        loop={false}
+        autoRemove={false}
+        delay={900000}
+        style={{
+          width: 750,
+          height: 750,
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+
+        }}
+      />
+    </div>
                 <Button
                     onClick={() => navigate('/conditions')}
                     sx={{
@@ -95,7 +80,32 @@ export const HomePage = () => {
                 >
                     Potřebuji pomoc
                 </Button>
+                <Typography variant="subtitle1" 
+                gutterBottom
+                        sx={{
+                            fontStyle: 'italic',
+                            padding: '0, 2em',
+                            
+                            [theme.breakpoints.up('sm')]: {
+                                margin: '2rem',
+                            },
+                            [theme.breakpoints.down('sm')]: {
+                                margin: '1rem',
+                            },
+                            [theme.breakpoints.down('xs')]: {
+                                margin: '1rem',
+                            },
+                            [theme.breakpoints.up('md')]: {
+                                margin: '2rem',
+                            },
+                        }}
+                >
+                    Společně se snažíme budovat prostředí, kde se každý může cítit
+                    akceptován a oceněn a doufáme, že i skutečně inkluzivní společnost.
+                </Typography>
             </Grid>
+
+            
         </GenericPage>
     );
 };

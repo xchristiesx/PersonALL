@@ -1,7 +1,6 @@
-import * as React from 'react';
+import React from 'react';
 import {GenericPage} from '../components/GenericPage.jsx';
 import {useNavigate} from 'react-router-dom';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import {useTheme} from '@mui/system';

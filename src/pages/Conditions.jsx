@@ -7,12 +7,20 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
+import { Box } from '@mui/material';
+
 
 export default function Conditions() {
   const [isConditionsChecked, setIsConditonsChecked] = React.useState(false);
   const navigate = useNavigate();
   return (
     <GenericPage>
+      <Box
+      sx={{
+        margin:" 8rem"
+      }}
+      
+      >
       <SectionsAU
         title={
           'Vyplňte krátký test pro lepší identifikaci situace, ve které se nacházíte a nalezení ideální rady. '
@@ -20,20 +28,25 @@ export default function Conditions() {
         cards={[
           {
             title: 'Bezpečný',
-            img: 'img/bezpecny.jpg',
+            img: 'img/bezpecny.png',
+            alt: 'ikona Bezpečný',
+
             content:
               'Vyplnění testu je zcela anonymní. Anonymizovaná data slouží pouze k průzkumu míry pocitu inkluzivity v ČR.',
           },
           {
             title: 'Anonymní',
-            img: 'img/anonymni.jpg',
+            img: 'img/anonymni.png',
+            alt: 'ikona anonymní',
+
             content:
               'Vyplnění testu zabere pouze chvíli a nepřináší s sebou žádné nepříjemné stavy či nebezpečí.',
           },
 
           {
             title: 'Dobrovolný',
-            img: 'img/dobrovolny.jpg',
+            img: 'img/dobrovolny.png',
+            alt: 'ikona dobrovolný',
             content:
               'Vyplnění testu je naprosto dobrovolné. Kdykoliv v průběhu vyplňování se můžete rozhodnout nepokračovat.',
           },
@@ -84,6 +97,7 @@ export default function Conditions() {
           </Button>
         </Container>
       </SectionsAU>
+      </Box>
     </GenericPage>
   );
 }

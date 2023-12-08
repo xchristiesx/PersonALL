@@ -20,7 +20,7 @@ function Header() {
 </a>
       <nav ref={navRef}>
         <a href="About">O nás</a>
-        <a href="/Test">Test</a>
+        <a href="/Conditions">Test</a>
         <a href="../pages/">Kontakty</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

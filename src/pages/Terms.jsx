@@ -4,8 +4,8 @@ import { Typography } from '@mui/material';
 import { Box } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { useTheme } from '@mui/system';
-import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
+import { Button } from '@mui/material';
 
 export const Terms = () => {
   const theme = useTheme();
@@ -161,7 +161,7 @@ export const Terms = () => {
             <i>Tyto podmínky nabývají účinnosti dnem 1. 1. 2023.</i>
           </Typography>
         </Box>
-      
+        
       </ThemeProvider>
     </GenericPage>
   );

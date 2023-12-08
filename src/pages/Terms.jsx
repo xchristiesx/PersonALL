@@ -4,16 +4,19 @@ import { Typography } from '@mui/material';
 import { Box } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { useTheme } from '@mui/system';
+import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
 
 export const Terms = () => {
   const theme = useTheme();
+  const navigate = useNavigate();
   return (
     <GenericPage>
       <ThemeProvider theme={{ palette: { primary: { main: '#ffe8ca' } } }}>
         <Box
           sx={{
             width: '80%',
-            margin: 'auto',
+            margin: '8rem',
             borderRadius: 8,
             bgcolor: 'primary.main',
             justifyContent: 'center',
@@ -42,7 +45,7 @@ export const Terms = () => {
             Zásady ochrany osobních údajů
           </Typography>
 
-          <Typography variant="body1" gutterBottom >
+          <Typography variant="body1" gutterBottom>
             <h4>I. základní ustanovení </h4>
             <i>
               Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského
@@ -71,7 +74,7 @@ export const Terms = () => {
             </i>
             <h4>III. zákonný důvod a účel</h4>
             <i>
-              zpracování osobních údajů Zákonným důvodem zpracování osobních
+              Zpracování osobních údajů Zákonným důvodem zpracování osobních
               údajů je plnění smlouvy mezi Vámi a správcem podle čl. 6 odst. 1
               písm. b) GDPR, splnění právní povinnosti správce podle čl. 6 odst.
               1 písm. c) GDPR, oprávněný zájem správce na poskytování přímého
@@ -96,7 +99,6 @@ export const Terms = () => {
             </i>
             <h4>IV. doba uchovávání údajů Správce uchovává osobní</h4>
             <i>
-              {' '}
               Údaje po dobu nezbytnou k výkonu práv a povinností vyplývajících
               ze smluvního vztahu mezi Vámi a správcem a uplatňování nároků z
               těchto smluvních vztahů (po dobu 5 let od ukončení smluvního
@@ -159,6 +161,7 @@ export const Terms = () => {
             <i>Tyto podmínky nabývají účinnosti dnem 1. 1. 2023.</i>
           </Typography>
         </Box>
+      
       </ThemeProvider>
     </GenericPage>
   );

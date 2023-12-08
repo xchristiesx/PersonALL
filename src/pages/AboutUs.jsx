@@ -6,8 +6,7 @@ import { Container } from '@mui/material';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 import { Box } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-import { margin, useTheme } from '@mui/system';
+import { useTheme } from '@mui/system';
 
 export const AboutUs = () => {
   const theme = useTheme();
@@ -17,7 +16,7 @@ export const AboutUs = () => {
       <Box
         sx={{
           width: '80%',
-          margin: '4rem',
+          margin: '8rem',
           borderRadius: 8,
           bgcolor: 'primary.main',
           justifyContent: 'center',

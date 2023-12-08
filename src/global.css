@@ -1,23 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 
-html,body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  background: #fefae0 no-repeat;
-  padding: 0;
+	background: #fefae0 no-repeat;
+	padding: 0;
 }
+
 body {
-  background: #fefae0 no-repeat;
+	background: #fefae0 no-repeat;
 }
 
 #app {
-  height: 100%;
-  overflow-x: scroll;
+	height: 100%;
+	overflow-x: scroll;
 }
 
 * {
@@ -28,7 +30,7 @@ body {
 }
 
 :root {
-	--mainColor:#ffe8ca;
+	--mainColor: #ffe8ca;
 	--mainColorLight: #c7a562;
 	--secondaryColor: #588157;
 	--textColor: #1d1505;
@@ -42,16 +44,17 @@ header {
 	padding: 2rem 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 5%;
-  
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 5%;
+	z-index: 100;
+
 
 }
-
 nav a {
 	margin: 0 1rem;
 	color: var(--textColor);
 	text-decoration: none;
+	z-index: 100;
 }
 
 nav a:hover {
@@ -95,8 +98,8 @@ nav {
 		gap: 1.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
-  
-    
+
+
 	}
 
 	header .responsive_nav {
@@ -113,4 +116,3 @@ nav {
 		font-size: 1.5rem;
 	}
 }
-

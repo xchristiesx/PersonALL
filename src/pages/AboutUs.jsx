@@ -7,12 +7,34 @@ import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 import { Box } from '@mui/material';
 import { useTheme } from '@mui/system';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Mousewheel, Pagination } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import '../global.css';
 
 export const AboutUs = () => {
   const theme = useTheme();
   const navigate = useNavigate();
   return (
+
+    
     <GenericPage>
+
+      <Swiper
+        direction={'vertical'}
+        slidesPerView={1}
+        spaceBetween={30}
+        mousewheel={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Mousewheel, Pagination]}
+        className="mySwiper"
+      >
+   <SwiperSlide>
       <Box
         sx={{
           width: '80%',
@@ -86,7 +108,9 @@ export const AboutUs = () => {
           <i>PersonALL je váš společník na cestě k inkluzivitě a pochopení.</i>
         </Typography>
       </Box>
+   </SwiperSlide>
 
+      <SwiperSlide>
       <Box
         style={{
           width: '100vw',
@@ -121,7 +145,8 @@ export const AboutUs = () => {
           ]}
         ></SectionsAU>
       </Box>
-
+      </SwiperSlide>
+      <SwiperSlide>
       <Box style={{ width: '100vw', height: '100vh' }}>
         <SectionsAU
           title={'Jak se můžete připojit:'}
@@ -187,6 +212,8 @@ export const AboutUs = () => {
           </Button>
         </Container>
       </Box>
+      </SwiperSlide> 
+      </Swiper>
     </GenericPage>
   );
 };

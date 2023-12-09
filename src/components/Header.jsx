@@ -10,18 +10,20 @@ function Header() {
 
   return (
     <header>
-      <a href="/"
-       style={{
-  textDecoration: 'none',
-  color: '#000',
-  cursor: 'pointer',
-}}>
-  PersonALL
-</a>
+      <a
+        href="/"
+        style={{
+          textDecoration: 'none',
+          color: '#000',
+          cursor: 'pointer',
+        }}
+      >
+        PersonALL
+      </a>
       <nav ref={navRef}>
         <a href="About">O nás</a>
         <a href="/Conditions">Test</a>
-        <a href="../pages/">Kontakty</a>
+        <a href="Contacts/">Kontakty</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />

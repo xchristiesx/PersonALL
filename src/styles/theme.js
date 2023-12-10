@@ -44,7 +44,7 @@ export const theme = createTheme({
         },
         h6: {
             fontFamily: "'Ubuntu', monospace",
-            cursor: 'pointer',
+            cursor: 'default',
             userSelect: 'none',
         },
         subtitle1: {

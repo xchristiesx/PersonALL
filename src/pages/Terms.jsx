@@ -26,22 +26,27 @@ export const Terms = () => {
             [theme.breakpoints.up('sm')]: {
               padding: '2rem',
               margin: '4rem',
+              marginBottom: '2rem',
             },
             [theme.breakpoints.down('sm')]: {
               padding: '0.5rem',
               margin: '2rem',
+              marginBottom: '1rem',
             },
             [theme.breakpoints.down('xs')]: {
               padding: '0.5rem',
               margin: '2rem',
+              marginBottom: '1rem',
             },
             [theme.breakpoints.up('md')]: {
               padding: '2rem',
               margin: '4rem',
+              marginBottom: '2rem',
             },
             [theme.breakpoints.up('lg')]: {
               padding: '5rem',
-              margin: '8rem'
+              margin: '8rem',
+              marginBottom: '4rem',
             },
           }}
         >
@@ -199,6 +204,24 @@ export const Terms = () => {
             Tyto podmínky nabývají účinnosti dnem 1. 1. 2023.
           </Typography>
         </Box>
+      <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            marginBottom: '3rem',
+            marginTop: '1.5rem'
+          }}
+      >
+        <Button
+            onClick={() => navigate('/conditions')}
+            variant="contained"
+            color="secondary"
+            size="large"
+        >
+          Potřebuji pomoc
+        </Button>
+      </Box>
 
     </GenericPage>
   );

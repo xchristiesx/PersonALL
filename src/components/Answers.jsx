@@ -9,7 +9,7 @@ export const Answers = (props) => {
     let buttonSx = isDesktop ? {fontSize: '1.5rem'} : {fontSize: '2rem'};
     buttonSx = isDesktop ? {fontSize: '1rem'} : {fontSize: '1.5rem'};
     return (
-        <Stack direction={stackDirection} width={isDesktop ? "auto" : "80%"} spacing={2} zIndex={0} >
+        <Stack direction={stackDirection} width={isDesktop ? "auto" : "80%"} spacing={2} >
             {props.answers.map((answer) =>
                 <AnswerButton
                     key={answer.content}
@@ -17,6 +17,7 @@ export const Answers = (props) => {
                     leads={answer.leads}
                     handleAnswerClick={props.handleAnswerClick}
                     buttonSx={buttonSx}
+
                 />
             )}
         </Stack>

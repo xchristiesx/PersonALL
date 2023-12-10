@@ -34,6 +34,7 @@ export default function Conditions() {
           },
           [theme.breakpoints.up('lg')]: {
               margin: '8rem',
+                marginTop: '4rem',
           },
       }}
       

@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 import '../global.css';
 import Typography from '@mui/material/Typography';
 
+
 export const Contacts = () => {
   return (
     <GenericPage>
@@ -481,30 +482,59 @@ export const Contacts = () => {
             />
             <Typography>Další užitečné kontakty</Typography>
           </div>
+          <div class="QR">
+            <Typography variant="h5" gutterBottom>
+              A co takhle spojit se s námi? s lidmi, kteří vědí jaké to je?
+            </Typography>
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                
+              }}
+            >
+              <h1>QR kód</h1>
+              <br></br>
+              <img
+                src="../img/MyQR.png"
+                alt="QR kód na Discord komunitu"
+                style={{ width: '150px', height: '200px' }}
+              />
+            </div>
+            <a
+      href="https://discord.gg/XCjsESxQ"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        color: 'black',    
+        textDecoration: 'none',
+        boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+        display: 'inline-block',
+        padding: '5px',
+        border: '2px solid rgba(255, 217, 0, 0.599)',
+        borderRadius: '15px'   
+      
+      }}
+    >
+      <h5>Let's PersonALL together.</h5>
+    </a>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div class="QR">
-          <Typography variant="h5"
-          gutterBottom>
-            A co takhle spojit se s námi? s lidmi, kteří vědí jaké to je?
-          </Typography>
-          <div>
-            <h1>QR kód</h1>
-            <img src="img/My_PDF.jpg" alt="QR kód na Discord komunitu" />
-          </div>
-          </div>
+          
         </SwiperSlide>
       </Swiper>
+     
     </GenericPage>
+    
   );
 };
 
-
 /*
-- předělat QR kód
 - První swiper rozdělit na 1 grid a pak každý kontakt do jiného gridu či divu a nastylovat pomocí CSS, aby byli všechny boxy stejně velké
 - Přidat další užitečné odkazy a to konkrétně na nevpusť duši, rozcestník všech kontaktu
 - pohrát si s poslední stránkou a odkazem na discord
 - založit komunitu na diskordu s úvodním slovem
-*/ 
+*/

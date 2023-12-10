@@ -119,7 +119,7 @@ export const TestPage = () => {
                 <Container maxWidth="100%" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <Question question={questions[questionNumber].question}/>
                 </Container>
-                <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <Container maxWidth="100%" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <Answers answers={questions[questionNumber].answers} handleAnswerClick={handleAnswerClick}/>
                 </Container>
             </Stack>

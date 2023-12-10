@@ -21,9 +21,9 @@ function Header() {
         PersonALL
       </a>
       <nav ref={navRef}>
-        <a href="About">O nás</a>
+        <a href="/About">O nás</a>
         <a href="/Conditions">Test</a>
-        <a href="Contacts/">Kontakty</a>
+        <a href="/Contacts">Kontakty</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />

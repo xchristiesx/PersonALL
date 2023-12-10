@@ -1,23 +1,40 @@
 import React from 'react';
 import SectionsAU from '../components/SectionsAU.jsx';
 import { GenericPage } from '../components/GenericPage.jsx';
-import { Container } from '@mui/material';
+import {Container, useMediaQuery} from '@mui/material';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 import { Box } from '@mui/material';
+import {useTheme} from "@mui/system";
 
 
 export default function Conditions() {
-  const [isConditionsChecked, setIsConditonsChecked] = React.useState(false);
+  const [isConditionsChecked, setIsConditionsChecked] = React.useState(false);
   const navigate = useNavigate();
+    const theme = useTheme();
+  const isDesktop = useMediaQuery('(min-width:600px)');
   return (
     <GenericPage>
       <Box
       sx={{
-        margin:" 8rem"
+          [theme.breakpoints.up('sm')]: {
+              margin: '3rem',
+          },
+          [theme.breakpoints.down('sm')]: {
+              margin: '1rem',
+          },
+          [theme.breakpoints.down('xs')]: {
+              margin: '1rem',
+          },
+          [theme.breakpoints.up('md')]: {
+              margin: '3rem',
+          },
+          [theme.breakpoints.up('lg')]: {
+              margin: '8rem',
+          },
       }}
       
       >
@@ -68,7 +85,7 @@ export default function Conditions() {
                 <Checkbox
                   checked={isConditionsChecked}
                   onChange={(event) =>
-                    setIsConditonsChecked(event.target.checked)
+                    setIsConditionsChecked(event.target.checked)
                   }
                   color="info"
                 />

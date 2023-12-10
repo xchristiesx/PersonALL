@@ -46,9 +46,6 @@ header {
 	color: var(--textColor);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 5%;
-	z-index: 100;
-
-
 }
 
 nav a {
@@ -65,7 +62,7 @@ nav a:hover {
 header .nav-btn {
 	padding: 5px;
 	cursor: pointer;
-	background: transparent;
+	background: var(--mainColor);
 	border: none;
 	outline: none;
 	color: var(--textColor);
@@ -78,6 +75,7 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+	background: var(--mainColor);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -98,6 +96,7 @@ nav {
 		justify-content: center;
 		gap: 1.5rem;
 		background-color: var(--mainColor);
+		z-index: 100;
 		transition: 1s;
 
 

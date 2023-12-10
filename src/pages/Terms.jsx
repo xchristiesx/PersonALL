@@ -12,11 +12,9 @@ export const Terms = () => {
   const navigate = useNavigate();
   return (
     <GenericPage>
-      <ThemeProvider theme={{ palette: { primary: { main: '#ffe8ca' } } }}>
         <Box
           sx={{
             width: '80%',
-            margin: '8rem',
             borderRadius: 8,
             bgcolor: 'primary.main',
             justifyContent: 'center',
@@ -24,20 +22,26 @@ export const Terms = () => {
             textAlign: 'justify',
             boxShadow: '0 0 5px #c9c4a9',
             userSelect: 'none',
+            backgroundColor: '#ffe8ca',
             [theme.breakpoints.up('sm')]: {
               padding: '2rem',
+              margin: '4rem',
             },
             [theme.breakpoints.down('sm')]: {
               padding: '0.5rem',
+              margin: '2rem',
             },
             [theme.breakpoints.down('xs')]: {
               padding: '0.5rem',
+              margin: '2rem',
             },
             [theme.breakpoints.up('md')]: {
               padding: '2rem',
+              margin: '4rem',
             },
             [theme.breakpoints.up('lg')]: {
               padding: '5rem',
+              margin: '8rem'
             },
           }}
         >
@@ -195,8 +199,7 @@ export const Terms = () => {
             Tyto podmínky nabývají účinnosti dnem 1. 1. 2023.
           </Typography>
         </Box>
- 
-      </ThemeProvider>
+
     </GenericPage>
   );
 };

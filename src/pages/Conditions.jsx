@@ -15,7 +15,7 @@ export default function Conditions() {
   const [isConditionsChecked, setIsConditionsChecked] = React.useState(false);
   const navigate = useNavigate();
     const theme = useTheme();
-  const isDesktop = useMediaQuery('(min-width:600px)');
+
   return (
     <GenericPage>
       <Box
@@ -95,7 +95,7 @@ export default function Conditions() {
                 <>
                   Prohlašuji, že jsem si přečetl/a výše uvedené informace
                   souhlasím s nimi.
-                  <a href="terms"> Zásady ochrany osobních údajů</a>
+                  <a href="/terms"> Zásady ochrany osobních údajů</a>
                 </>
               }
             />

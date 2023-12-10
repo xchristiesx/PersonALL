@@ -3,11 +3,7 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <Footer
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
+    <footer>
       <div style={{ textAlign: 'center', padding: '20px' }}>
         <h3>PersonALL</h3>
         <p>It's not personal, it's PersonALL!</p>
@@ -42,7 +38,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </Footer>
+    </footer>
   );
 };
 

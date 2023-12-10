@@ -2,7 +2,6 @@ import React from 'react';
 import { GenericPage } from '../components/GenericPage.jsx';
 import { Typography } from '@mui/material';
 import { Box } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
 import { useTheme } from '@mui/system';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
@@ -214,7 +213,7 @@ export const Terms = () => {
           }}
       >
         <Button
-            onClick={() => navigate('/conditions')}
+            onClick={() => navigate('/test')}
             variant="contained"
             color="secondary"
             size="large"

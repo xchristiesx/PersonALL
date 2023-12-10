@@ -469,7 +469,6 @@ export const Contacts = () => {
           <div className="UsefulContacts">
             <Lottie
               animationData={animationData}
-              autoRemove={false}
               delay={900000}
               style={{
                 width: 250,
@@ -482,7 +481,7 @@ export const Contacts = () => {
             />
             <Typography>Další užitečné kontakty</Typography>
           </div>
-          <div class="QR">
+          <div className="QR">
             <Typography variant="h5" gutterBottom>
               A co takhle spojit se s námi? s lidmi, kteří vědí jaké to je?
             </Typography>
@@ -520,10 +519,6 @@ export const Contacts = () => {
       <h5>Let's PersonALL together.</h5>
     </a>
           </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          
         </SwiperSlide>
       </Swiper>
      

@@ -26,7 +26,7 @@ export const App = () => {
           <Route path="terms" element={<Terms />} />
           <Route path="conditions" element={<Conditions />} />
           <Route path="result" element={<ResultPage />} />
-          <Route path={'contacts'} element={<Contacts />} />
+          <Route path="contacts" element={<Contacts />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

@@ -41,12 +41,11 @@ export const HomePage = () => {
             {!isDesktop ? (
                 // Desktop view
                 <Grid
-                    height={'calc(100vh-64px)'}
+                    height={'calc(100vh-80px)'}
                     container
                     direction="column"
                     justifyContent="center"
                     alignItems="center"
-                    sx={{ height: 'calc(100vh - 64px)' }}
                 >
                     <Typography gutterBottom align='center'
                                 sx={{

@@ -5,8 +5,6 @@ import Lottie from 'lottie-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Pagination } from 'swiper/modules';
 import { Box } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../global.css';
@@ -30,14 +28,15 @@ export const Contacts = () => {
           <div className="AllContacts">
             <Box
               sx={{
-                width: '70%',
+                width: '80%',
                 margin: 'auto',
                 borderRadius: 8,
                 bgcolor: 'primary.main',
                 justifyContent: 'center',
                 alignItems: 'center',
-                padding: '2rem',
+                padding: '1.5rem',
                 backgroundColor: '#f5e1a4',
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
               }}
             >
               <Typography
@@ -64,10 +63,12 @@ export const Contacts = () => {
                   justifyContent: 'center',
                 }}
               >
-                (pro děti, mládež a studující do 26 let)
+                Linka důvěry pro děti a mládež do 18 let (a pro studenty do 26
+                let), kteří se ocitli v náročné životní situaci a potřebují
+                pomoc.
               </Typography>
               <Typography
-                variant="h3"
+                variant="h5"
                 component="div"
                 gutterBottom
                 sx={{
@@ -92,7 +93,371 @@ export const Contacts = () => {
                   rel="noopener noreferrer"
                   sx={{ marginLeft: '5px', color: 'primary' }}
                 >
-                  linkabezpeci.cz
+                  Navšívit web
+                </a>
+              </Box>
+            </Box>
+
+            <Box
+              sx={{
+                width: '80%',
+                margin: 'auto',
+                borderRadius: 8,
+                bgcolor: 'primary.main',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '1.5rem',
+                backgroundColor: '#f5e1a4',
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+              }}
+            >
+              <Typography
+                variant="h7"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  color: 'primary',
+                }}
+              >
+                Terapeutická linka Sluchátko
+              </Typography>
+              <Typography
+                variant="body1"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                Anonymní linka všechny dospělé, které trápí úzkosti, stres,
+                samota, partnerské vztahy, ztráta zaměstnání nebo blízkého.
+                Linka nabízí konzultaci až 3 telefonátů v délce do 50 minut
+                zdarma.
+              </Typography>
+              <Typography
+                variant="h5"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                }}
+              >
+                212 812 540
+              </Typography>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a
+                  href="https://www.linkasluchatko.cz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{ marginLeft: '5px', color: 'primary' }}
+                >
+                  Navšívit web
+                </a>
+              </Box>
+            </Box>
+
+            <Box
+              sx={{
+                width: '80%',
+                margin: 'auto',
+                borderRadius: 8,
+                bgcolor: 'primary.main',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '1.5rem',
+                backgroundColor: '#f5e1a4',
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+              }}
+            >
+              <Typography
+                variant="h7"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  color: 'primary',
+                }}
+              >
+                Elpida - Linka seniorů
+              </Typography>
+              <Typography
+                variant="body1"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                Anonymní linka pro seniory, které trápí samota, životní ztráty,
+                omezená pohyblivost, vážná nemoc, finanční tíseň, domácí násilí,
+                šikana či různé aspekty stárnutí.
+              </Typography>
+              <Typography
+                variant="h5"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                }}
+              >
+                800 200 007
+              </Typography>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a
+                  href="https://linka-senioru.elpida.cz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    marginLeft: '5px',
+                    color: 'inherit',
+                    textDecoration: 'none',
+                    cursor: 'pointer',
+                  }}
+                >
+                  Navšívit web
+                </a>
+              </Box>
+            </Box>
+            <Box
+              sx={{
+                width: '80%',
+                margin: 'auto',
+                borderRadius: 8,
+                bgcolor: 'primary.main',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '1.5rem',
+                backgroundColor: '#f5e1a4',
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+              }}
+            >
+              <Typography
+                variant="h7"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  color: 'primary',
+                }}
+              >
+                Projekt Parafilik
+              </Typography>
+              <Typography
+                variant="body1"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                Odborná pomoc pro osoby s problematickým nastavením sexuality a
+                jejich blízké. Služba nabízí těmto osobám pravidelná
+                terapeutická setkání, online poradnu a linku telefonické krizové
+                intervence.
+              </Typography>
+              <Typography
+                variant="h5"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                }}
+              >
+                317 071 668
+              </Typography>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a
+                  href="https://parafilik.cz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{ marginLeft: '5px', color: 'primary' }}
+                >
+                  Navšívit web
+                </a>
+              </Box>
+            </Box>
+
+            <Box
+              sx={{
+                width: '80%',
+                margin: 'auto',
+                borderRadius: 8,
+                bgcolor: 'primary.main',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '1.5rem',
+                backgroundColor: '#f5e1a4',
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+              }}
+            >
+              <Typography
+                variant="h7"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  color: 'primary',
+                }}
+              >
+                ROSA - Krizová linka pro oběti domácího násilí
+              </Typography>
+              <Typography
+                variant="body1"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                Linka pro všechny oběti domácího násilí a jejich blízké.
+              </Typography>
+              <Typography
+                variant="h5"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                }}
+              >
+                800 60 50 80; 241 432 466; 602 246 102;
+              </Typography>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a
+                  href="https://www.rosacentrum.cz/nase-sluzby/telefonicka-krizova-pomoc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{ marginLeft: '5px', color: 'primary' }}
+                >
+                  Navšívit web
+                </a>
+              </Box>
+            </Box>
+
+            <Box
+              sx={{
+                width: '80%',
+                margin: 'auto',
+                borderRadius: 8,
+                bgcolor: 'primary.main',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '1.5rem',
+                backgroundColor: '#f5e1a4',
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+              }}
+            >
+              <Typography
+                variant="h7"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  color: 'primary',
+                }}
+              >
+                Linka pomoci Bílého kruhu bezpečí pro oběti kriminality a
+                domácího násilí
+              </Typography>
+              <Typography
+                variant="body1"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                Linka pomoci pro oběti kriminality, domácího násilí a pro oběti
+                a svědky různých trestných činů.
+              </Typography>
+              <Typography
+                variant="h5"
+                component="div"
+                gutterBottom
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                }}
+              >
+                257 317 110 nebo 116 006
+              </Typography>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a
+                  href="https://www.116006.cz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{ marginLeft: '5px', color: 'primary' }}
+                >
+                  Navšívit web
                 </a>
               </Box>
             </Box>
@@ -101,72 +466,45 @@ export const Contacts = () => {
 
         <SwiperSlide>
           <div className="UsefulContacts">
-            <Typography>
-              Další užitečné kontakty
-            </Typography>
+            <Lottie
+              animationData={animationData}
+              autoRemove={false}
+              delay={900000}
+              style={{
+                width: 250,
+                height: 250,
+                position: 'absolute',
+                top: '15%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+              }}
+            />
+            <Typography>Další užitečné kontakty</Typography>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Typography>
-          A co takhle spojit se s námi? s lidmi, kteří vědí jaké to je? 
+          <div class="QR">
+          <Typography variant="h5"
+          gutterBottom>
+            A co takhle spojit se s námi? s lidmi, kteří vědí jaké to je?
           </Typography>
+          <div>
+            <h1>QR kód</h1>
+            <img src="img/My_PDF.jpg" alt="QR kód na Discord komunitu" />
+          </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </GenericPage>
   );
 };
 
-/*<SectionsAU
-          title={''}
-          cards={[
 
-            {
-              title: 'Terapeutická linka Sluchátko',
-              img: 'img/contact.png',
-              alt: 'ikona telefonu',
-              Content:"116",
-              content:
-                'Anonymní linka pro mladé dospělé, jedince ve středním věku a seniory, které trápí úzkosti, stres, samota, partnerské vztahy, ztráta zaměstnání nebo blízkého. Linka nabízí konzultaci v rozsahu až 3 telefonátů v délce do 50 minut zdarma.',
-              
-                
-            },
-
-            {
-              title: 'Dětské krizové centrum',
-              img: 'img/contact.png',
-              alt: 'ikona telefonu',
-              content:
-                'Krizové centrum pro děti z celé ČR do 18 let (studenti do 26 let) a jejich rodiny, které jsou ohroženy týráním (fyzicky a psychicky), zneužíváním, zanedbáváním, násilím a konflikty mezi rodiči, rozvodem, úmrtím, závažným onemocnění, šikanou nebo traumatem svědků násilných trestních činů. Službu je možné využít anonymně.',
-            },
-            {
-              title: 'Linka první psychické pomoci',
-              img: 'img/contact.png',
-              alt: 'ikona telefonu',
-              content:
-                'Okamžitá telefonická pomoc pro všechny dospělé, kteří se ocitli v životní krizi nebo v náročné situaci a pociťují psychickou nepohodu, mají potíže ve vztazích či mají starost o svého blízkého a potřebují vyslechnout, nebo se poradit, jak postupovat dál.',
-            },
-            {
-              title: 'Elpida - Linka seniorů',
-              img: 'img/contact.png',
-              alt: 'ikona telefonu',
-              content:
-                'Anonymní linka pro seniory, které trápí samota, životní ztráty, omezená pohyblivost, vážná nemoc, finanční tíseň, domácí násilí, šikana či různé aspekty stárnutí.',
-            },
-            
-            {
-              title: 'ROSA - Krizová linka pro oběti domácího násilí',
-              img: 'img/contact.png',
-              alt: 'ikona telefonu',
-              content:
-                'Linka pro všechny oběti domácího násilí a jejich blízké.',
-            },
-            {
-              title: 'Linka pomoci Bílého kruhu bezpečí pro oběti kriminality a domácího násilí',
-              img: 'img/contact.png',
-              alt: 'ikona telefonu',
-              content:
-                'Linka pomoci pro oběti kriminality, domácího násilí a pro oběti a svědky různých trestných činů.',
-            },
-            
-          ]}*/
+/*
+- předělat QR kód
+- První swiper rozdělit na 1 grid a pak každý kontakt do jiného gridu či divu a nastylovat pomocí CSS, aby byli všechny boxy stejně velké
+- Přidat další užitečné odkazy a to konkrétně na nevpusť duši, rozcestník všech kontaktu
+- pohrát si s poslední stránkou a odkazem na discord
+- založit komunitu na diskordu s úvodním slovem
+*/ 

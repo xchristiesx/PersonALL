@@ -217,3 +217,9 @@ export const AboutUs = () => {
     </GenericPage>
   );
 };
+/*
+- Přidat něco o mě a Adél, že to vzniklo v rámci závěrečného projektu na kurzu DAWEB od Czechitas 2023
+- Srovnat styly, tak aby bylo vše na středu.
+- Přidat info o testu a odborné literatuře. " občas si říkáme, že to nic není, jiní to mají horší, dogmata atd. to by mělo být součástí 3 sekce" About us" a pak následně proklik na test. ... "
+- vytvořit footer!!!!
+ */

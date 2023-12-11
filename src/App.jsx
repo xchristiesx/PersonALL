@@ -10,6 +10,7 @@ import { Terms } from './pages/Terms.jsx';
 import Conditions from './pages/Conditions.jsx';
 import { ResultPage } from './pages/ResultPage.jsx';
 import { Contacts } from './pages/Contacts.jsx';
+import {ErrorPage} from "./pages/ErrorPage.jsx";
 
 
 
@@ -27,6 +28,7 @@ export const App = () => {
           <Route path="conditions" element={<Conditions />} />
           <Route path="result" element={<ResultPage />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

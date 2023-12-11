@@ -3,169 +3,183 @@
 
 html,
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	background: #fefae0 no-repeat;
-	padding: 0;
-}
-
-body {
-	background: #fefae0 no-repeat;
+    background: #fefae0 no-repeat;
+    padding: 0;
 }
 
 #app {
-	height: 100%;
+    height: 100%;
 }
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
 }
 
 :root {
-	--mainColor: #ffe8ca;
-	--mainColorLight: #c7a562;
-	--secondaryColor: #588157;
-	--textColor: #1d1505;
+    --mainColor: #ffe8ca;
+    --mainColorLight: #c7a562;
+    --secondaryColor: #588157;
+    --textColor: #1d1505;
 }
 
 header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 80px;
-	padding: 2rem 2rem;
-	background-color: var(--mainColor);
-	color: var(--textColor);
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	border-radius: 5%;
-	position: sticky;
-	top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 2rem 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 nav a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
-	z-index: 100;
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+    z-index: 100;
 }
 
 nav a:hover {
-	color: var(--secondaryColor);
-	z-index: 100;
+    color: var(--secondaryColor);
+    z-index: 100;
 }
 
 header .nav-btn {
-	padding: 5px;
-	cursor: pointer;
-	background: var(--mainColor);
-	border: none;
-	outline: none;
-	color: var(--textColor);
-	visibility: hidden;
-	opacity: 0;
-	font-size: 1.8rem;
+    padding: 5px;
+    cursor: pointer;
+    background: var(--mainColor);
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
 }
 
 header div,
 nav {
-	display: flex;
-	align-items: center;
-	background: var(--mainColor);
+    display: flex;
+    align-items: center;
+    background: var(--mainColor);
 }
 
 @media only screen and (max-width: 1024px) {
-	header .nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
 
-	header nav {
-		position: fixed;
-		top: -100vh;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: var(--mainColor);
-		z-index: 100;
-		transition: 1s;
+    header nav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        z-index: 100;
+        transition: 1s;
 
 
-	}
+    }
 
-	header .responsive_nav {
-		transform: translateY(100vh);
-	}
+    header .responsive_nav {
+        transform: translateY(100vh);
+    }
 
-	nav .nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
 
-	nav a {
-		font-size: 1.5rem;
-	}
+    nav a {
+        font-size: 1.5rem;
+    }
 }
 
 .swiper {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 90%;
+}
+
+.about-swiper {
+    width: 100%;
+    height: calc(100vh - 80);
 }
 
 .swiper-slide {
-	text-align: center;
-	font-size: 18px;
-
-	/* Center slide text vertically */
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide img {
-	display: block;
+    display: block;
 }
 
-.AllContacts {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 10px;
-	padding: 10px;
-	border-radius: 15px;
-
-	margin: 20px;
-	margin-top: -40px; 
+.ScreenAllContacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.UsefulContacts{
-	border: 2px solid rgba(255, 217, 0, 0.563);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 20px;
-	
+.TabletAllContacts {
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.QR{
-	justify-content: center;
-	display: grid;
-  gap: 20px;
-  padding: 20px;
-  border: 2px solid rgba(255, 217, 0, 0.599);
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+.UsefulContacts {
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.QR, .AllLinks {
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 50px;
 }

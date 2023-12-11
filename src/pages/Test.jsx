@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {GenericPage} from "../components/GenericPage.jsx";
-import Grid from "@mui/material/Unstable_Grid2";
 import {Question} from "../components/Question.jsx";
 import {Answers} from "../components/Answers.jsx";
 import Button from "@mui/material/Button";
@@ -10,15 +9,16 @@ import {useState} from "react";
 import {createSearchParams, useNavigate} from "react-router-dom";
 import {Container} from "@mui/material";
 import Stack from "@mui/material/Stack";
+
 export const TestPage = () => {
     const navigate = useNavigate();
 
     const [questionNumber, setQuestionNumber] = useState(0);
-    const [initialAnswers, setInitialAnswers] = useState({sex: null, sexuality : null});
+    const [initialAnswers, setInitialAnswers] = useState({sex: null, sexuality: null});
     const [userAnswers, setUserAnswers] = useState([]);
     const numberOfQuestions = questions.length - 1;
 
-    const goToResults = (params) =>  navigate({
+    const goToResults = (params) => navigate({
         pathname: '/result',
         search: createSearchParams(params).toString(),
     });
@@ -68,9 +68,9 @@ export const TestPage = () => {
         goToResults(params);
     }
     const handleAnswerClick = (leads) => {
-        switch(questionNumber) {
+        switch (questionNumber) {
             case 0:
-                setInitialAnswers(prevState => ({...prevState, sex: leads[0]} ))
+                setInitialAnswers(prevState => ({...prevState, sex: leads[0]}))
                 break;
             case 1:
                 setInitialAnswers(prevState => ({...prevState, sexuality: leads?.[0] || null}))
@@ -79,14 +79,14 @@ export const TestPage = () => {
                 setUserAnswers(prevState => [...prevState, leads])
         }
         if (questionNumber < numberOfQuestions)
-            setQuestionNumber(prevState=> prevState + 1)
+            setQuestionNumber(prevState => prevState + 1)
         else
             handleLastAnswer();
     }
     const handleBackClick = () => {
-        switch(questionNumber) {
+        switch (questionNumber) {
             case 1:
-                setInitialAnswers(prevState => ({...prevState, sex: null} ))
+                setInitialAnswers(prevState => ({...prevState, sex: null}))
                 break;
             case 2:
                 setInitialAnswers(prevState => ({...prevState, sexuality: null}))
@@ -97,29 +97,29 @@ export const TestPage = () => {
                 setUserAnswers(copy)
         }
         if (questionNumber > 0)
-            setQuestionNumber(prevState=> prevState - 1)
+            setQuestionNumber(prevState => prevState - 1)
     }
 
     return (
         <GenericPage>
-                <Button
-                    sx={{
-                        height: 'max-content'
-                    }}
-                    variant="text"
-                    color="secondary"
-                    size={'large'}
-                    startIcon={<ArrowBack />}
-                    disabled={questionNumber === 0}
-                    onClick={handleBackClick}
-                >
-                    Zpět
-                </Button>
+            <Button
+                sx={{
+                    height: 'max-content'
+                }}
+                variant="text"
+                color="secondary"
+                size={'large'}
+                startIcon={<ArrowBack/>}
+                disabled={questionNumber === 0}
+                onClick={handleBackClick}
+            >
+                Zpět
+            </Button>
             <Stack spacing={15} sx={{marginTop: '10vh'}}>
-                <Container maxWidth="100%" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <Container maxWidth="100%" sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <Question question={questions[questionNumber].question}/>
                 </Container>
-                <Container maxWidth="100%" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <Container maxWidth="100%" sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <Answers answers={questions[questionNumber].answers} handleAnswerClick={handleAnswerClick}/>
                 </Container>
             </Stack>

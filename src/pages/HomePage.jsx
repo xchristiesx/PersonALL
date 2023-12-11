@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { GenericPage } from '../components/GenericPage.jsx';
-import { useNavigate } from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import {GenericPage} from '../components/GenericPage.jsx';
+import {useNavigate} from 'react-router-dom';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { useTheme } from '@mui/system';
+import {useTheme} from '@mui/system';
 import {useMediaQuery} from "@mui/material";
 import Lottie from 'lottie-react';
 import animationData from '../resources/Animation-homepage.json';
@@ -131,7 +131,7 @@ export const HomePage = () => {
                     justifyContent="center"
                     alignItems="center"
                 >
-                    <div style={{ position: 'relative' }}>
+                    <div style={{position: 'relative'}}>
                         <Typography
                             gutterBottom
                             align="center"
@@ -184,7 +184,13 @@ export const HomePage = () => {
                         </Button>
 
                         {showAnimation && (
-                            <div style={{ position: 'absolute', top: '60%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: -1 }}>
+                            <div style={{
+                                position: 'absolute',
+                                top: '65%',
+                                left: '50%',
+                                transform: 'translate(-50%, -50%)',
+                                zIndex: -1
+                            }}>
                                 <Lottie
                                     animationData={animationData}
                                     loop={false}
@@ -201,7 +207,7 @@ export const HomePage = () => {
                             gutterBottom
                             style={{
                                 position: 'absolute',
-                                top: '140%', // Adjust the top position as needed, e.g., '80%'
+                                top: '140%',
                                 left: '45%',
                                 transform: 'translateX(-45%)',
                                 width: '90%'

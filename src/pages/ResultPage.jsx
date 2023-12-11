@@ -21,12 +21,12 @@ export const ResultPage = () => {
     if (result)
         return <GenericPage>
             <ResultTitle title={result.title}/>
-            <ResultDescription descriptions={result.descriptions} />
+            <ResultDescription descriptions={result.descriptions}/>
             <ResultSteps steps={result.steps}/>
             <ResultEndDescription end_desc={result.end_desc}/>
-            <ResultContacts />
+            <ResultContacts/>
         </GenericPage>
     return <GenericPage>
-        <TestNotTaken />
+        <TestNotTaken/>
     </GenericPage>
 }

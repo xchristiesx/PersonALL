@@ -7,7 +7,7 @@ import {Container} from "@mui/material";
 export const TestNotTaken = () => {
     const navigate = useNavigate();
     return (
-        <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <Container sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
             <Typography variant="h3" component="div" align='center' padding='1.5rem'>
                 Jejda!
             </Typography>

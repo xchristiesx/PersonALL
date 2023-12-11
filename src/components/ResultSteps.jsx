@@ -4,12 +4,14 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Divider from '@mui/material/Divider';
 import ListItemText from '@mui/material/ListItemText';
-import {Avatar, ListItemAvatar} from "@mui/material";
+import {Avatar, ListItemAvatar, useMediaQuery} from "@mui/material";
 import {ChatBubbleOvalLeftIcon} from '@heroicons/react/24/outline';
 
 export const ResultSteps = ({steps}) => {
+    const isTablet = useMediaQuery('(min-width:750px)');
+    const widthStyle = isTablet ? '70%' : '90%';
     return (
-        <div style={{width: '70%', margin: 'auto', padding: '20px'}}>
+        <div style={{width: widthStyle, margin: 'auto', padding: '20px'}}>
             <Typography variant="h4" component='div' marginBottom='1.5rem' marginTop='4rem' align='center'
                         style={{userSelect: 'none'}}>
                 <span>Kroky, které můžete podniknout:</span>

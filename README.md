@@ -6,7 +6,6 @@ This web application is the result of our journey through the Czechitas Web Acad
 ## Table of Contents
 - [Project Details](#project-details)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
 - [Contributors](#contributors)
 
@@ -24,17 +23,6 @@ Throughout the Czechitas Web Academy beginners' course, our team worked collabor
 - **Contacts:** Access a directory of contacts for different situations.
 - **Interactive Animations:** Engaging animations to enhance user experience.
 - **Responsive Design:** Enjoy a seamless experience across various devices.
-
-## Getting Started
-
-1. **Clone the Repository:** Clone this repository to your local machine using the following command:
-    ```bash
-    git clone https://github.com/afialova/final_project_Czechitas.git
-    ```
-
-2. **Run `npm install`:** Make sure to install all dependencies and optionally extensions.
-
-3. **Open `index.html` or type `npm start` in the terminal:** To explore the project, follow the recommended way of running the code to access the file in your web browser.
 
 ## Technologies Used
 
